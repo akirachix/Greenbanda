@@ -1,0 +1,35 @@
+.Container h3{
+position: absolute;
+top: 30%;
+left: 25%;
+color: white;
+height: 1000px;
+}
+
+.Container Button{
+position: absolute;
+top: 50%;
+left: 47%;
+}
+
+.Container img{
+filter: brightness(40%);
+
+}
+.card{
+    background-color: #D9D9D9;
+}
+.cont{
+    background-color: rgb(223, 227, 223);
+    width: 1150px;
+    margin-top: 4%;
+    border-radius: 20px;
+    height: 200px;
+    margin-left: 5.2%;
+}
+    
+.footer{
+    background-color:green;
+ width: 100%;
+ border: radius 1px;
+}
