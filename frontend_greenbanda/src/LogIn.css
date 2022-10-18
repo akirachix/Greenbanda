@@ -1,0 +1,60 @@
+
+.original{
+    background-image: url(./image/Greens.jpg);
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    padding: 90px 0 90px 0;
+
+}
+.nav{
+    height: 200vh;
+}
+.sub-original{
+    background-color: #fff;
+    width: 30%;
+    height: 60vh;
+    padding: 30px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.sub-originals{
+    background-color: #2FC85A;
+    width: 30%;
+    height: 60vh;
+    padding: 30px;
+}
+.input{
+    margin-bottom :13px;
+    margin-top: 13px;
+    height: 4vh;
+    width: 78%;
+
+}
+.heading{
+    margin-top: 48%;
+    margin-left: 5%;
+}
+.btn-login{
+    margin-top: 5%;
+    border-radius: 23px;
+    background-color: #2FC85A;
+    border: none;
+    padding: 12px;
+    width: 50%;
+}
+.btn-login:hover{
+    box-shadow: 0.1rem 0.1rem 0.1rem grey;
+}
+
+
+#spa{
+    color: #2FC85A;
+    margin-left: 4px; 
+}
+#span:hover{
+    text-decoration: none;
+    color: #2FC85A;
+}
