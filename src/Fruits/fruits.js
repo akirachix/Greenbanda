@@ -7,7 +7,7 @@ import veg from '../Home/vegetables.jpg';
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-import strawberry from '../imgfruits/mangoes.jpg'
+import Mangoes from '../imgfruits/mangoes.jpg'
 
 function home() {
     return(
@@ -42,9 +42,9 @@ function home() {
       {Array.from({ length: 4 }).map((_, idx) => (
         <Col>
           <Card>
-            <Card.Img variant="top" src={strawberry} />
+            <Card.Img variant="top" src={Mangoes} />
             <Card.Body>
-              <Card.Title>Strarberries</Card.Title>
+              <Card.Title>Mangoes</Card.Title>
               <Card.Text>
                 This is a longer card with supporting text below as a natural
                 lead-in to additional content. This content is a little bit
