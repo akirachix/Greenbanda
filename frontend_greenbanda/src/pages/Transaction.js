@@ -1,13 +1,17 @@
 import React, { useState } from 'react';
 
 import '../App.css'
-import { Link, NavLink } from 'react-router-dom';
+import {Link, NavLink } from 'react-router-dom';
 import {   FaTh,
     FaBars,
     FaUserAlt,
     FaShoppingCart,
-    FaMoneyBillWaveAlt,    FaShoppingBag
+    FaMoneyBillWaveAlt,
+    FaShoppingBag,
+    FaBell,
+    FaUserCircle
 } from "react-icons/fa"
+
 
 
 
@@ -53,7 +57,9 @@ function Transaction ({children}) {
            <div className="container">
            <div style={{width: isOpen ? "200px" : "50px"}} className="sidebar">
                <div className="top_section">
-               <h1 style={{display: isOpen ? "flex" : "none", marginLeft: isOpen ? "6px" : "0px"}} className="log">GB</h1>
+               <h1 style={{display: isOpen ? "flex" : "none", marginLeft: isOpen ? "6px" : "0px"}} >
+               <Link  className="log" to="./">GB</Link>
+               </h1>
                    <h1 style={{display: isOpen ? "flex" : "none", marginLeft: isOpen ? "6px" : "0px"}} className="logo2">Admin <br></br> Supplier</h1>
                    <div style={{marginLeft: isOpen ? "36px" : "0px"}} className="bars">
                        <FaBars onClick={toggle}/>
@@ -71,32 +77,19 @@ function Transaction ({children}) {
           <div className='bar'> 
 
            <div className='nav-bar'>
-                    <div className='logo'>
-                    <h1>GB</h1>
-                    <p>GreenBanda</p>
-    
-                    </div>
-              
-    
-                    <div >
-                        <Link className='nav-link' to="/">Home</Link>
-                    </div>
-                    <div>
-                
-                        <Link className='nav-link' to="/signup">SignUp</Link>
-                    </div>
-                    <div>
-                        
-                        <Link className='nav-link' to="/login">LogIn</Link>
-                    </div>
-                    <div>
-                        
-                        <Link className='nav-link' to="/dashboard">Dashboard</Link>
-                    </div>        
+           <input className='search-input'  type="text" placeholder="Search..."/>  
+           <div className='icons'>
+
+            <h4><FaBell/></h4>
+            <h4><FaUserCircle/></h4>
+            </div>
+
+
+ 
     
             </div> <br></br>
           
-            <div className='comment'>Transaction</div>            
+            <div className='sect-main'>Transaction Page</div>            
         </div> 
           </div>
         </div>               

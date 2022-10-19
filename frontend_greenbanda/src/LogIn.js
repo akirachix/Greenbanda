@@ -2,6 +2,8 @@ import './LogIn.css';
 import './App.js';
 import {Link } from "react-router-dom";
 import { useState,useEffect } from 'react';
+import {FaShoppingCart} from "react-icons/fa";
+
 
 
 function LogIn() {
@@ -17,28 +19,36 @@ function LogIn() {
             <div className='nav'>
                 <div className='logo'>
                 <h1>GB</h1>
-                <p>GreenBanda</p>
-
+                <h6 className='brand'>GreenBanda</h6>
                 </div>
           
 
-                <div >
-                    <Link className='nav-link' to="/">Home</Link>
-                </div>
-                <div>
-            
-                    <Link className='nav-link' to="/signup">SignUp</Link>
-                </div>
-                <div>
-                    
-                    <Link className='nav-link' to="/login">LogIn</Link>
-                </div>
-                <div>
-                    
-                    <Link className='nav-link' to="/dashboard">Dashboard</Link>
-                </div>
-           
-       
+                <div className='navigation' >
+              
+          
+
+              <div>
+                  <Link className='nav-link' to="/">Home</Link>
+              </div>
+              <div >
+                  <Link className='nav-link' to="/vegetables">Vegetables</Link>
+              </div>
+              <div >
+                  <Link className='nav-link' to="/fruits">Fruits</Link>
+              </div>
+              
+              <div>
+                  
+                  <Link className='nav-link' to="/login">LogIn</Link>
+              </div>
+
+              <div>
+                  
+                  <Link className='nav-link' to="/login"><FaShoppingCart/>
+</Link>
+              </div>
+              </div>
+                     
 
         </div>
         
@@ -58,10 +68,17 @@ function LogIn() {
                     <Link id='spa' to="./login">Password</Link>
                     </p>
                     </div>
+                    
 
                     <Link exact to="/dashboard">
         <button className='btn-signup' type='button'>Log In</button>
  </Link>
+ <div className='account2'>
+                    <p>Don't Have an Account?
+                    <Link id='spa' to="./signup">Sign Up</Link>
+                    </p>
+                    </div>
+ 
 
           
                 </form>

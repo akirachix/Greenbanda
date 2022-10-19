@@ -1,7 +1,7 @@
 .body{
     height: 100vh;
     background-color: #000;
-    background-image: url(./image/Greens.jpg);
+    background-image: url(./image/market.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -12,16 +12,26 @@
     display: flex;
     height: 12vh;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .logo{
     display: flex;
     align-items: center;
-    margin-left: -40px;
+    margin-left: 20px;
 }
 p{
     margin-top: 23%;
     margin-left: 6%;
+}
+.brand{
+    margin-top: 4rem;
+    font-weight: lighter;
+}
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    /* border: 3px solid black; */
 }
 .nav-link{
     color: #000;

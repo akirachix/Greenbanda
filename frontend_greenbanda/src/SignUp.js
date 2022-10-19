@@ -2,9 +2,15 @@ import './SignUp.css';
 import { Link, } from "react-router-dom";
 import React from 'react';
 import { useState,useEffect } from 'react';
+import {FaShoppingCart} from "react-icons/fa";
 
 
-function SignUp() {  
+
+  
+
+function SignUp() { 
+  
+
   // const userRef= useRef()
   // const errorRef= useRef()
 
@@ -50,27 +56,35 @@ function SignUp() {
             <div className='nav'>
                 <div className='logo'>
                 <h1>GB</h1>
-                <p>GreenBanda</p>
-
+                <h6 className='brand'>GreenBanda</h6>
                 </div>
           
 
-                <div >
+                <div className='navigation' >
+              
+          
+
+                <div>
                     <Link className='nav-link' to="/">Home</Link>
                 </div>
-                <div>
-            
-                    <Link className='nav-link' to="/signup">SignUp</Link>
+                <div >
+                    <Link className='nav-link' to="/vegetables">Vegetables</Link>
                 </div>
+                <div >
+                    <Link className='nav-link' to="/fruits">Fruits</Link>
+                </div>
+                
                 <div>
                     
                     <Link className='nav-link' to="/login">LogIn</Link>
                 </div>
+
                 <div>
                     
-                    <Link className='nav-link' to="/dashboard">Dashboard</Link>
+                    <Link className='nav-link' to="/login">            <FaShoppingCart/>
+</Link>
                 </div>
-           
+                </div>
        
 
         </div>
@@ -156,7 +170,7 @@ function SignUp() {
             <br></br>
             <div className='account'>
                     <p id ="span2" >Alreadly have an account?
-                    <Link id='spa' exact to="/login">Log In</Link>
+                    <Link id='spa' exact={true} to="/login">Log In</Link>
                     </p>
                     
                     

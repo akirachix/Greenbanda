@@ -1,15 +1,19 @@
 
 .original{
-    background-image: url(./image/Greens.jpg);
+    background-image: url(./image/market.jpg);
     background-position: center;
     background-size: cover;
     justify-content: center;
-    display: flex;
+    /* display: flex; */
     padding: 90px 0 90px 0;
 
 }
 .nav{
     height: 200vh;
+}
+.brand{
+    margin-top: 4rem;
+    font-weight: lighter;
 }
 .sub-original{
     background-color: #fff;
@@ -33,6 +37,7 @@
     width: 78%;
 
 }
+
 .heading{
     margin-top: 48%;
     margin-left: 5%;
@@ -57,4 +62,18 @@
 #span:hover{
     text-decoration: none;
     color: #2FC85A;
+}
+
+.account{
+    margin-top: -87px;
+    margin-left: -30px;
+    margin-bottom: 32px;
+    width: 140%;
+    
+}
+.account2{
+    margin-top: -82px;
+    margin-left: -30px;
+    margin-bottom: 22px;
+    width: 120%;
 }
