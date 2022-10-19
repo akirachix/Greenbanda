@@ -1,5 +1,5 @@
 import './LogIn.css';
-import './App.js';
+import '../App.js';
 import {Link } from "react-router-dom";
 import { useState,useEffect } from 'react';
 
@@ -82,4 +82,3 @@ function LogIn() {
     )
 };
 export default LogIn;
-
