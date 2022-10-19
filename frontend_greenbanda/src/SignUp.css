@@ -1,0 +1,94 @@
+.main{
+    margin-top: -23%;
+    justify-content: center;
+    display: flex;
+    padding: 90px 0 90px 0;
+    background-image: url(./image/Greens.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+  
+    
+   
+}
+.sub-main{
+    margin-top: -5%;
+    display: flex;
+    padding-left: 70px;
+    height: 93vh;
+    width: 35%;
+    background-color: #ffff;
+    /* overflow-y: hidden;
+    overflow-x: hidden; */
+
+    
+}
+form{
+    margin-top: 22px;
+    margin-bottom: -59px;
+}
+
+.sub-main2{
+    margin-top: -5%;
+    display: flex;
+    justify-content: center;
+    height: 93vh;
+    width: 30%;
+    background-color: #2FC85A;
+
+}
+
+input{
+    margin-top: 3px;
+    margin-bottom: 4%;
+    height: 4vh;
+    width: 125%;
+
+}
+
+.name{
+    margin-top: 39%;
+}
+/* .name2{
+    color: red;
+    font-size: 56%;
+    margin-bottom: 20rem;
+} */
+.btn-signup{
+    margin-top: -4%;
+    background-color: #2FC85A;
+    border: none;
+    width: 80%;
+    padding: 12px;
+    border-radius: 23px;
+    border: 1px solid white;
+}
+.btn-signup:hover{
+    box-shadow: 0.1rem 0.1rem 0.1rem #2FC85A;
+}
+.span2{
+    width: 34px;
+    background-color: #2FC85A;
+    margin-top: -37px;
+}
+.account{
+    margin-top: -52px;
+    margin-bottom: 32px;
+    width: 120%;
+}
+
+#span{
+    margin-top: 23%;
+    margin-left: 10px;
+    font-size: 16px;
+    color: #2FC85A;
+    text-decoration: none;
+}
+#span:hover{
+    color: #2FC85A;
+    text-decoration: none;
+
+}
+.welcoming{
+    margin-top: 60%;
+}
