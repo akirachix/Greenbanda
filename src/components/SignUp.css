@@ -3,7 +3,7 @@
     justify-content: center;
     display: flex;
     padding: 90px 0 90px 0;
-    background-image: url(./image/Greens.jpg);
+    background-image: url('./image/market.jpg');
     background-position: center;
     background-size: cover;
     height: 70vh;
@@ -49,11 +49,7 @@ input{
 .name{
     margin-top: 39%;
 }
-/* .name2{
-    color: red;
-    font-size: 56%;
-    margin-bottom: 20rem;
-} */
+
 .btn-signup{
     margin-top: -4%;
     background-color: #2FC85A;
@@ -66,16 +62,7 @@ input{
 .btn-signup:hover{
     box-shadow: 0.1rem 0.1rem 0.1rem #2FC85A;
 }
-.span2{
-    width: 34px;
-    background-color: #2FC85A;
-    margin-top: -37px;
-}
-.account{
-    margin-top: -52px;
-    margin-bottom: 32px;
-    width: 120%;
-}
+
 
 #span{
     margin-top: 23%;

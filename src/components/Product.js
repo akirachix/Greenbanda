@@ -1,6 +1,6 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import carrot from '../imgvegies/carrots-1.jpg'
+// import carrot from '../imgvegies/carrots-1.jpg'
 
 export function ProductCard(props) {
   return (

@@ -1,10 +1,21 @@
-import './SignUp.css';
 import { Link, } from "react-router-dom";
 import React from 'react';
 import { useState,useEffect } from 'react';
+import {FaShoppingCart} from "react-icons/fa";
+// import "./SignUp.css";
+// import axios from 'axios';
+
+// import Footer from "./Footer";
 
 
-function SignUp() {  
+
+
+
+  
+
+function SignUp() { 
+  // const[data,setData] = useState()
+
   // const userRef= useRef()
   // const errorRef= useRef()
 
@@ -14,7 +25,14 @@ function SignUp() {
   const  [password, setPassword]= useState('');
   const  [Location, setLocation]= useState('');
   const  [PhoneNumber, setphoneNumber]= useState('');
-  const  [Cpassword, setCPassword]= useState('');
+  const  [Confirmpassword, setConfirmpassword]= useState('');
+  const Supplier={
+    first_name:"",
+    last_name:"",
+    location:"",
+    phone_number:"",
+    password:""
+  }
   // const [Success, setSuccess]=useState(false)
 
   const handleSubmit = async(e)=>{
@@ -25,8 +43,8 @@ function SignUp() {
     setLastName('')
     setphoneNumber('')
     setPassword('')
-    setCPassword('')
-    console.log( FirstName, LastName, Location,Cpassword,password,PhoneNumber)
+    setConfirmpassword('')
+    console.log( FirstName, LastName, Location,Confirmpassword,password,PhoneNumber)
     //  Link('/dashboard')
   };
 
@@ -36,8 +54,30 @@ function SignUp() {
   // );
   useEffect(()=>{
     setError('');
-  }, [LastName, password, Cpassword, PhoneNumber, FirstName,Location]
+  }, [LastName, password, Confirmpassword, PhoneNumber, FirstName,Location]
   );
+const postdata = () =>{
+  Supplier.first_name=FirstName
+  Supplier.last_name=LastName
+  Supplier.location=Location
+  Supplier.phone_number=PhoneNumber
+  Supplier.password=password
+ 
+
+  
+
+  // const[FirstName,LastName]=user
+  console.log(Supplier)
+  axios.post('https://boiling-citadel-73149.herokuapp.com/Bandapp/Supplier/',Supplier)
+  .then(res =>{
+    console.log(res)
+  })
+  .catch(error =>{
+    console.log(error)
+  })
+
+}
+ 
 
  
   
@@ -50,27 +90,35 @@ function SignUp() {
             <div className='nav'>
                 <div className='logo'>
                 <h1>GB</h1>
-                <p>GreenBanda</p>
-
+                <h6 className='brand'>GreenBanda</h6>
                 </div>
           
 
-                <div >
+                <div className='navigation' >
+              
+          
+
+                <div>
                     <Link className='nav-link' to="/">Home</Link>
                 </div>
-                <div>
-            
-                    <Link className='nav-link' to="/signup">SignUp</Link>
+                <div >
+                    <Link className='nav-link' to="/vegetables">Vegetables</Link>
                 </div>
+                <div >
+                    <Link className='nav-link' to="/fruits">Fruits</Link>
+                </div>
+                
                 <div>
                     
                     <Link className='nav-link' to="/login">LogIn</Link>
                 </div>
+
                 <div>
                     
-                    <Link className='nav-link' to="/dashboard">Dashboard</Link>
+                    <Link className='nav-link' to="/login">            <FaShoppingCart/>
+</Link>
                 </div>
-           
+                </div>
        
 
         </div>
@@ -93,7 +141,7 @@ function SignUp() {
             </div>
 
             <label className='name'>First Name</label> <br></br>
-            <input name='FirstName' 
+            <input name='first_name' 
             type="text"
             required
             // ref={userRef}
@@ -104,7 +152,7 @@ function SignUp() {
               </input><br></br>
 
             <label className='name'>Last Name</label> <br></br>
-            <input name='LastName'
+            <input name='last_name'
              type="text" 
              required
              value={LastName}
@@ -114,7 +162,7 @@ function SignUp() {
              placeholder="Enter Last Name"></input><br></br>
 
             <label className='name'>Phone Number</label> <br></br>
-            <input name='pnumber'
+            <input name='phone_number'
              required
              value={PhoneNumber}
             //  ref={userRef}
@@ -144,19 +192,19 @@ function SignUp() {
              ></input><br></br>
 
             <label className='name'>Confirm Password</label> <br></br>
-            <input name='cpassword' 
+            <input name='confirm_password' 
             type="Password"
             required
-            value={Cpassword}
+            value={Confirmpassword}
             // ref={userRef}
             autoComplete= "off"
-            onChange={(e)=> {setCPassword(e.target.value)}}
+            onChange={(e)=> {setConfirmpassword(e.target.value)}}
              placeholder="Enter Confirm Password"></input>
             <br></br>
             <br></br>
             <div className='account'>
                     <p id ="span2" >Alreadly have an account?
-                    <Link id='spa' exact to="/login">Log In</Link>
+                    <Link id='spa' exact={true} to="/login">Log In</Link>
                     </p>
                     
                     
@@ -164,17 +212,13 @@ function SignUp() {
         </div>
             <div >
         <Link to="/dashboard">
-        <button disabled={!Cpassword} className='btn-signup'>Sign Up</button>
-
+        <button  type='button' onClick={postdata} disabled={!Confirmpassword}  className='btn-signup'>Sign Up</button>
  </Link>
         </div>
  
         </form>
         <div>
-          
-        
- 
-        
+             
         </div>
     
      </div>
@@ -194,3 +238,4 @@ function SignUp() {
  
 
 export default SignUp;
+{/* <Footer/> */}
