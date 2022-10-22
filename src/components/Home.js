@@ -2,34 +2,29 @@ import React from 'react';
 import market from "../images/market.jpg";
 import Cards  from './Cards';
 import Footer from './Footer';
+import Navbar from './Nav';
 
 const Home = () =>{
   return (
+    
     <div id="veg">
       <div className='veggies'>
+      <Navbar/>
+        <div className='oper'></div>
+        <div className='bak'>Fresh Vegetables and Fruits from your trusted Suppliers</div>
        
-      <img src= {market}  height="470vh%" width="100%" />
-      <div className='text'>      
-      <p id="text">Fresh Vegetables and Fruits from your trusted Suppliers</p>
+      <img src= {market}  height="670vh" width="100%" />
+      </div>
+      <div className='text'> 
+      
       <button>Order Now</button>
 
      </div>
-
-
-      </div>
-      <div></div>
-
-    
-
-     <div className='orderb'>
-     
-     </div>
-
       <Cards/>
-     
-      <div>
       <Footer/>
-      </div>
+      
+     
+      
     </div>
     
     

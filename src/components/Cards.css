@@ -1,10 +1,10 @@
 .icons{
     display: flex;
-    width: 81%;
+    width: 91%;
     padding-left: 19%; 
     padding-top: 2%;
     margin-top: -7%;
-    margin-left: -9%;
+    margin-left: -15%;
     /* margin-right: -34%; */
 
 
@@ -12,10 +12,11 @@
 }
 
 .cart{
+    margin-top: 10%;
     color: black;
     background-color:#2FC85A;
     width: 96%;
-    height: 45vh;
+    height: 85vh;
     position: relative;
     font-size:50px;
     border-radius: 10px;
@@ -23,10 +24,10 @@
     padding-top:  2%;
     padding-left: 4%;
     right: auto;
-    /* margin-top: 67px; */
 }
 .order-cart{
-    margin-left: 18%;
+    margin-left: 1%;
+    font-size: 8rem;
 }
 
 
@@ -34,16 +35,24 @@
 .order-head{
     background-color: #fff;
     margin-right: 23%;
-    height: 4vh;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 2%;
-    font-size: 5px;
+    font-size: 9px;
     font-weight: lighter;
 }
 .orders{
     margin-right: 23%;
-    padding: 14% 4%;
+    padding-left: 3%;
+    height: 34%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #fff;
-    margin-top: 10%;
-    font-size: 5px;
-    font-weight: lighter;
+    margin-top: 19%;
+    font-size: 23px;
+
+    /* font-weight: lighter; */
 }

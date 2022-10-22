@@ -1,6 +1,7 @@
 import React from 'react';
 import veg from "../images/vegetables.jpg";
 import SearchBar from './SearchBar';
+import Footer from './Footer';
 
 const Vegetables = () =>{
   return (
@@ -11,6 +12,7 @@ const Vegetables = () =>{
 
       <div className='search'>
       <SearchBar/>
+      <Footer/>
       </div>
 
     </div>

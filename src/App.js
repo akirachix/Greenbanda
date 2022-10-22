@@ -11,13 +11,14 @@ import Search from './components/SearchBar';
 function App() {
   return (
     <Router>
-      <Navbar />
+     
       <Switch>
+        
         <Route path='/' exact component={Home} />
-        {/* <Route path='/' exact component={Vegetables} />
-        <Route path='/' component={Fruits} />
-        <Route path='/Search' component={Search} /> */}
-        {/* <Route path='/login' component={SignUp} /> */}
+        <Route path='/' exact component={Vegetables} />
+         <Route path='/' component={Fruits} />
+        <Route path='/Search' component={Search}/>
+         {/* <Route path='/login' component={SignUp}/> */}
 
         {/* <Route path='/Cards' component={Cards} /> */}
 

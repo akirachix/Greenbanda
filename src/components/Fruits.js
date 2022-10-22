@@ -1,6 +1,7 @@
 import React from 'react';
 import vegetables from "../images/vegetables.jpg";
 import SearchBar from './SearchBar';
+import Footer from './Footer';
 
 const Fruits= () =>{
   return (
@@ -13,6 +14,7 @@ const Fruits= () =>{
       <div className='search'>
 
       <SearchBar/>
+      <Footer/>
       </div>
     
 

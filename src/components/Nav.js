@@ -1,7 +1,9 @@
 import React from 'react';
 import {  Link } from "react-router-dom";
 import './nav.css'
-import { icons } from 'react-icons';
+// import { icons } from 'react-icons';
+import {FaShoppingCart} from 'react-icons/fa';
+
 
 const Navbar= () =>{
   return (
@@ -10,18 +12,37 @@ const Navbar= () =>{
       <h1 className='logo'>GB <span>GreenBanda</span></h1>
      
     </div>
-    <li>
-      <Link className='one' to="/">Home</Link>
-    </li>
-    <li>
-      <Link className='one' to="/vegs">Vegetables</Link>
-    </li>
-    <li>
-      <Link className='one' to="/fruits">Fruits</Link>
-    </li>
-    <li>
-      <Link className='one' to="/login">LogIn</Link>
-    </li>
+    <div className='navi' >
+              
+          
+
+              <div>
+              <Link className='one' to="/">Home</Link>
+              </div>
+              <div >
+              <Link className='one' to="/vegs">Vegetables</Link>
+              </div>
+              <div >
+              <Link className='one' to="/fruits">Fruits</Link>
+              </div>
+              
+              <div>
+                  
+              <Link className='one' to="/login">LogIn</Link>
+              </div>
+
+              <div>
+                  
+                  <Link className='nav-link' to="/login">  
+                  <div className='fa'>
+                      <FaShoppingCart/>
+                    </div>     
+</Link>
+              </div>
+              </div>
+
+    
+  
   </div>
  );
 }
