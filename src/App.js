@@ -1,10 +1,10 @@
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Navbar from "./components/Nav"
 import Home from "./components/Home";
 import Fruits from "./components/Fruits"
-import Vegetables from './components/Veg';
-import Search from './components/SearchBar';
+import Vegetables from './components/Vegetables';
+import { useMediaQuery } from 'react-responsive'
+// import Search from './components/SearchBar';
 // import SignUp from './components/SignUp';
 // import Cards  from './components/Cards';
 
@@ -13,17 +13,25 @@ function App() {
     <Router>
      
       <Switch>
-        
         <Route path='/' exact component={Home} />
-        <Route path='/' exact component={Vegetables} />
-         <Route path='/' component={Fruits} />
-        <Route path='/Search' component={Search}/>
+        <Route path='/vegetables' exact component={Vegetables} />
+         <Route path='/fruits' component={Fruits} />
+         <Route path='/' exact component={ useMediaQuery }/>
+
+
+        {/* <Route path='/Search' component={Search}/> */}
          {/* <Route path='/login' component={SignUp}/> */}
 
         {/* <Route path='/Cards' component={Cards} /> */}
 
       </Switch>
     </Router>
+
+
+
+
+
+
   );
 }
 

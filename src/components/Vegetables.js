@@ -1,51 +1,55 @@
-import React from 'react';
-import veg from "../images/vegetables.jpg";
-import SearchBar from './SearchBar';
-import Footer from './Footer';
+import React from "react";
+import "./veg.css";
+// import SearchBar from "./SearchBar";
+import Footer from "./Footer";
+import Navbar from "./Navbar";
+import market from "../images/market.jpg";
+import capsicum from "../images/capsicum.jpg";
+import cucumber from "../images/cucumber.jpg";
+import carrots from "../images/carrots-1.jpg";
+import onions from "../images/onions.jpg";
+import saumu from "../images/saumu.jpeg";
+import tomatoes from "../images/tomatoes.jpeg";
+import Eggplant from "../images/Eggplant.webp";
+import cabbages from "../images/cabbages.webp";
 
-const Vegetables = () =>{
+
+const Vegetables = () => {
   return (
     <div>
-      <div >
-      <img src= {veg}  height="100%" width="100%" />
+      <Navbar />
+      <div className="opacity"></div>
+
+      <div>
+        <img src={market} height="670vh" width="100%"/>
       </div>
 
-      <div className='search'>
-      <SearchBar/>
-      <Footer/>
+      <div className="vegs">
+      <div>
+        <img src={capsicum} height="12%" width="17%"/>
+        <img src={saumu} height="7%" width="17%"/>
+        <img src={cucumber} height="12%" width="17%"/>
+        <img src={carrots} height="7%" width="17%"/>
+        <img src={onions} height="1%" width="17%"/>
+        <img src={tomatoes} height="12%" width="17%"/>
+        <img src={Eggplant} height="12%" width="17%"/>
+        <img src={cabbages} height="12%" width="17%"/>
       </div>
 
+      </div>
+
+      <Footer />
+     
     </div>
+
+    
   );
-}
+};
 export default Vegetables;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+{
+  /* <SearchBar/>
+    </div>
 
 
 // import React from "react";
@@ -59,7 +63,6 @@ export default Vegetables;
 // import Col from "react-bootstrap/Col";
 // import Card from "react-bootstrap/Card";
 // import navbar from "./Nav";
-
 
 // function Veg() {
 //   return (
@@ -82,8 +85,9 @@ export default Vegetables;
 //               </Nav.Link>
 //             </Nav>
 //           </Container>
-//         </Navbar> */}
-//       </div>
+//         </Navbar> */
+}
+//
 //       <div className="Container">
 //         {/* <img src={veg} alt="veg-img" width="100%" /> */}
 //         <div class="p-1 bg-light rounded rounded-pill shadow-sm mb-4">

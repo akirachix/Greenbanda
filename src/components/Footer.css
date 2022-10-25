@@ -1,9 +1,10 @@
 .footer{
-    margin-top: 5%;
+    margin-top: 4%;
     background-color:#fff;
     width: 100%;
-    height: 10vh;
+    height: 14vh;
     color: #2FC85A;
+    padding-bottom: 2%;
 }
 .contact{
     margin-left: 1%;
@@ -16,3 +17,6 @@
     padding-top: 2%;
     margin-left: 40%;
 }
+
+
+

@@ -17,23 +17,22 @@ const Navbar= () =>{
           
 
               <div>
-              <Link className='one' to="/">Home</Link>
+              <Link className='one' id='one' to="/">Home</Link>
               </div>
               <div >
-              <Link className='one' to="/vegs">Vegetables</Link>
+              <Link className='one' id='one' to="/vegetables">Vegetables</Link>
               </div>
               <div >
-              <Link className='one' to="/fruits">Fruits</Link>
+              <Link className='one' id='one' to="/fruits">Fruits</Link>
               </div>
               
               <div>
                   
-              <Link className='one' to="/login">LogIn</Link>
+              <Link className='one'id='one' to="/login">LogIn</Link>
               </div>
 
               <div>
-                  
-                  <Link className='nav-link' to="/login">  
+                  <Link className='nav-link' id='one' to="/login">  
                   <div className='fa'>
                       <FaShoppingCart/>
                     </div>     

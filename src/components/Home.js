@@ -2,16 +2,18 @@ import React from 'react';
 import market from "../images/market.jpg";
 import Cards  from './Cards';
 import Footer from './Footer';
-import Navbar from './Nav';
+import Navbar from './Navbar';
+
 
 const Home = () =>{
+
   return (
     
     <div id="veg">
       <div className='veggies'>
       <Navbar/>
-        <div className='oper'></div>
-        <div className='bak'>Fresh Vegetables and Fruits from your trusted Suppliers</div>
+        <div className='opacity'></div>
+        <div className='bak'> <p>Fresh Vegetables and Fruits from your trusted Suppliers</p></div>
        
       <img src= {market}  height="670vh" width="100%" />
       </div>
@@ -20,6 +22,9 @@ const Home = () =>{
       <button>Order Now</button>
 
      </div>
+
+
+ 
       <Cards/>
       <Footer/>
       

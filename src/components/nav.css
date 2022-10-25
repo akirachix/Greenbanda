@@ -1,13 +1,16 @@
+html, body{
+    margin-left: 0.5rem;
+    padding: 0;
+    /* overflow-x: hidden; */
+}
+
 .links{
     margin-left: 5%;
     display: flex;
     justify-content: space-between;
-    background-color: #fff;
-    /* padding-left: 70%; */
-    
+    background-color: #fff;   
 }
 .links li{
-    /* background-color: #000; */
     list-style: none;
     margin-left: 4%;
     margin-top: 30px;
@@ -27,6 +30,11 @@
     align-items: center;
 
 }
+
+#veg-img{
+height: 40rem;
+width: 100%;
+}
 .links{
     height: 70px;
 }
@@ -40,7 +48,6 @@
     font-size: 44px;
 }
 span{
-    /* margin-left: 12%; */
     font-weight: lighter;
     font-size: 57%;
 }
@@ -53,15 +60,19 @@ span{
     align-items: center;
     justify-content: center;
     padding: 23px 90px;
-    width: 55%;
-    height: 15%;
+    width: 30rem;
     position: absolute;
-    font-size: 44px;
+    font-size: 30px;
     font-weight: light;
-    top: 44%;
-    left: 19%;
-    margin-bottom: 1%;
-    background-color: rgba(247, 248, 247, 0.687);
+    margin: 0 auto;
+    text-align: center;
+    margin: 12rem 23rem 0rem  20rem;    /* background-color: rgba(250, 250, 250, 0.687); */
+}
+.bak p{
+    text-align: center;
+    padding: 2rem 2rem 2rem 2rem;
+    width: 25rem;
+    background-color: rgba(250, 250, 250, 0.687);
 }
 .upper{
     
@@ -79,15 +90,158 @@ span{
 button{
     width: 15%;
     height: 7vh;
+    
+     margin: 4rem ;
+
     margin-left: 27%;
     border-radius: 15px;
     border: 2px solid #17923a;
     color: #2FC85A;
 }
-.oper{
+.opacity{
     position: absolute;
     opacity: 34.0%;
     width: 100%;
-    height: 101%;
+    height: 104%;
     background-color: #ffff;
+}
+
+
+@media screen and (max-width: 600px){
+    
+    .links li{
+        /* background-color: #000; */
+        list-style: none;
+        margin-left: 7rem;
+        margin-top: 30rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+.navi .one{
+    margin: 1rem 0.5rem 1rem 1rem;
+    /* background-color: #000; */
+    font-size: 1rem;
+}
+#veg-img{
+    height: 25rem;
+    width: 100%;
+    margin-top: 3rem;
+    }
+
+    button{
+        width: 25%;
+        height: 7vh;
+        margin-bottom:-2rem;        /* margin-left: 27%; */
+        border-radius: 15px;
+        border: 2px solid #17923a;
+        color: #2FC85A;
+    }
+
+    .navi{
+        /* visibility: hidden; */
+        display: inline;
+        margin-top: 1rem;
+        /* margin-left: 2rem ; */
+        /* margin-bottom:  0.5rem; */
+    }
+
+
+  /* .bak{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 23px 90px;
+    width: 20rem;
+    height: 8rem;
+    position: absolute;
+    font-size: 30px;
+    font-weight: light;
+    margin: 0 auto;
+    text-align: center;
+    margin: 12rem 25rem 0rem  24rem;
+    background-color: rgba(250, 250, 250, 0.687);
+} */
+
+    .bak p{
+        /* margin-bottom: 2rem; */
+        /* visibility: hidden; */
+        background-color: rgba(250, 250, 250, 0.687);
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 992px){
+
+   html, body{
+margin-left: 0.5rem;
+padding: 0;
+overflow-x: hidden;
+/* text-align: center; */
+
+    }
+    .bak{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 23px 80px;
+            width: 22rem;
+            height: 8rem;
+            position: absolute;
+            font-size: 28px;
+            font-weight: light;
+            margin: 8rem 2rem 2rem -1rem;
+           
+        /* background-color: rgba(250, 250, 250, 0.687); */
+    }
+
+    .bak p{
+        text-align: center;
+         margin: 0 auto;
+    }
+
+}
+
+
+
+
+@media (min-width:768px) and (max-width:801px) {
+    html, body{
+        margin-left: 0.5rem;
+        padding: 0;
+        overflow-x: hidden;
+        /* text-align: center; */
+        
+            }
+            .bak{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 23px 80px;
+                    width: 22rem;
+                    height: 8rem;
+                    position: absolute;
+                    font-size: 28px;
+                    font-weight: light;
+                    margin: 10rem 2rem 2rem 7rem;
+                   
+                /* background-color: rgba(250, 250, 250, 0.687); */
+            }
+
+            button{
+            width: 9rem;
+            height: 4rem;
+            margin-bottom: -1rem;
+            }
+        
+            .bak p{
+                text-align: center;
+                 margin: 0 auto;
+            }
+        
 }

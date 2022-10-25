@@ -1,39 +1,31 @@
-import React from 'react';
-import vegetables from "../images/vegetables.jpg";
-import SearchBar from './SearchBar';
-import Footer from './Footer';
+import React from "react";
+import SearchBar from "./SearchBar";
+import Footer from "./Footer";
+import Navbar from "./Navbar";
+import market from "../images/market.jpg"
 
-const Fruits= () =>{
+const Fruits = () => {
   return (
+
     <div>
-    <div>
-    
-      <div className='top' style={{display: "inline-block"}}>
-      <img src= {vegetables} height="100%" width="100%"/>
-      </div>
-      <div className='search'>
+       <Navbar/>
+       <div className='opacity'></div>
+      <div >
+      <img src= {market}  height="670vh" width="100%" alt="hello" />
+      </div> 
+       <Footer />
+       
+        <SearchBar />
+       
 
-      <SearchBar/>
-      <Footer/>
-      </div>
-    
-
-      
-
-
-
-
-
-
-    </div>
+        {/* <div className="top" style={{ display: "inline-block" }}>
+          <img src={vegetables} height="100%" width="100%" />
+        </div> */}
+       
     </div>
   );
-}
+};
 export default Fruits;
-
-
-
-
 
 
 
@@ -81,7 +73,7 @@ export default Fruits;
 //         </Container>
 //       </Navbar> */}
 //       </div>
-//       <div className='Container'> 
+//       <div className='Container'>
 //     {/* <img src={veg} alt='veg-img' width='100%' />   */}
 //     <div class="p-1 bg-light rounded rounded-pill shadow-sm mb-4">
 //             <div class="input-group">
@@ -112,13 +104,10 @@ export default Fruits;
 //       ))}
 //     </Row>
 
-
-
-
 // </Container>
 
 //     </div>
-  
+
 //  )
 // }
 // export default Fruits;
