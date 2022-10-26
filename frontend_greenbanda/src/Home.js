@@ -9,7 +9,7 @@ function Home() {
     return(
        
 
-        
+
         <div className='body'>
             <div className='nav'>
                 <div className='logo'>

@@ -11,9 +11,12 @@ import axios  from 'axios';
 
 function SignUp() { 
   // const[data,setData] = useState()
+  
 
   // const userRef= useRef()
   // const errorRef= useRef()
+
+
 
   const  [errorMessage, setError]= useState('');
   const  [FirstName, setFirstName]= useState('');
@@ -29,25 +32,20 @@ function SignUp() {
     phone_number:"",
     password:""
   }
-  // const [Success, setSuccess]=useState(false)
 
   const handleSubmit = async(e)=>{
     e.preventDefault();
     setError('')
-    // setSuccess(true)
     setFirstName('') 
     setLastName('')
     setphoneNumber('')
     setPassword('')
     setConfirmpassword('')
     console.log( FirstName, LastName, Location,Confirmpassword,password,PhoneNumber)
-    //  Link('/dashboard')
+  
   };
 
-  // useEffect(()=>{
-  //   userRef.current.focus()
-  // }, []
-  // );
+  
   useEffect(()=>{
     setError('');
   }, [LastName, password, Confirmpassword, PhoneNumber, FirstName,Location]
@@ -62,7 +60,6 @@ const postdata = () =>{
 
   
 
-  // const[FirstName,LastName]=user
   console.log(Supplier)
   axios.post('https://boiling-citadel-73149.herokuapp.com/Bandapp/Supplier/',Supplier)
   .then(res =>{
