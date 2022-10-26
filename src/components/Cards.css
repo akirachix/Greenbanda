@@ -1,178 +1,93 @@
 .icons{
     display: flex;
-    width: 91%;
+    width: 90%;
     padding-left: 19%; 
-    padding-top: 2%;
     margin-top: -7%;
-    margin-left: -15%;
-    /* margin-right: -34%; */
-
+    margin-left: 0%;
 }
-
 .cart{
-    /* margin-top: 10%; */
     color: black;
     background-color:#2FC85A;
     width: 100%;
-    height: 32rem;
+    height: 27rem;
     position: relative;
-    font-size:50px;
-    border-radius: 10px;
+    font-size:60px;
+    border-radius: 20px;
     margin: 7rem 1rem 1rem 1rem;
-    /* margin-left: 7px; */
-    /* padding-top:  2%; */
-    /* padding-left: 4%; */
-    /* right: auto; */
+    left: -9%;
 }
 #icon{
-
     margin: 1rem 1rem 3rem 1rem;
     font-size: rem;
-    height: 5rem;
+    height: auto;
+    width: 50%;
 }
-
-
-
 .order-head{
-    background-color: #fff;
-    /* margin-right: 23%; */
-    /* height: 6vh; */
     display: flex;
-    padding-left:- 1rem;
-    /* text-align: center; */
-
     margin: 0 auto;
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* padding: ; */
-    /* text-align: center; */
-    font-size: 9px;
-    width: 10rem;
+    font: size 25%;
+    width: 60%;
     font-weight: lighter;
 }
 .orders{
-    /* margin-right: 23%; */
-    /* padding-left: 3%; */
-    /* height: 34%; */
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: center; */
-    background-color: rgb(245, 243, 243);
-    /* margin-top: 19%; */
     display: flex;
-    font-size: 1.2rem;
+    font-size: 32%;
     text-align: center;
-    width: 20rem;
-    height: 5rem;
+    height: 9rem;
     padding: 0.5rem 0.5rem 0.5rem 0.5rem;
-    margin: 1rem 1rem 1rem 1rem;
 }
 
 
 @media screen and (max-width: 600px){
    
     .icons{
-        display: inline;
-        /* width: 100%; */
-        /* padding-left: 19%;  */
-        /* padding-top: 2%; */
-        /* margin-top: -7%; */
-        /* margin-left: -15%; */
-        /* margin-right: -34%; */
-    } 
-    
-    #icon{
-        height: 4rem;
-        width: 4rem;
+        display: block;
+        width: 90%;
+        padding-left: 19%; 
+        margin-top: 7%;
+        margin-left: 0%;    
     }
     
+    #icon{
+
+        margin: 1rem 1rem 3rem 1rem;
+        font: size 20px;;
+        height: auto;
+        width: 50%;
+    }
     .cart{
-        /* margin-top: 1rem; */
         margin: 2rem 2rem 2rem 2rem;
         color: black;
         background-color:#2FC85A;
         width: 100%;
-        /* height: 85vh; */
-        /* position: relative; */
-        /* font-size:50px; */
-        /* border-radius: 10px; */
-        /* margin-left: 7px; */
-        /* padding-top:  2%; */
-        /* padding-left: 4%; */
-        /* right: auto; */
         text-align: center;
     }
     
     
     
     .order-head{
-        background-color: rgb(250, 250, 250);
         display: flex;
         text-align: center;
         margin: 0 auto;
         width: 10rem;
-        
-        /* background-position: center; */
-        /* background-size:10rem ; */
-        /* margin-right: 23%; */
-        /* height: 6vh; */
-        /* display: flex; */
-        /* align-items: center; */
-        /* justify-content: center; */
-        /* padding: 2%; */
-        /* font-size: 9px; */
-        /* font-weight: lighter; */
     }
     
-    .orders{
-        /* margin-right: 23%; */
-        /* padding-left: 3%; */
-        /* height: 34%; */
-        /* display: flex; */
-        /* align-items: center; */
-        /* justify-content: center; */
-        background-color: transparent;
-        /* margin-top: 19%; */
-        display: flex;
-        /* font-size: 0.5rem; */
-        /* text-align: center; */
-        width: 25rem;
-        height: 5rem;
-        margin: 0 auto;
-        padding: 0.5rem 0.5rem 0.5rem 0.5rem;
-        /* margin: 1rem 1rem 1rem 1rem; */
-    }
-
-    
-    .orders p{
-       
-        background-color: rgb(247, 245, 245);
-        
+    .orders p{        
         padding: 1rem;
-        width: 12rem;
-        height: 5rem;
-        font-size: 1rem;
-       
-        /* width: 25rem; */
+        width: 90%;
+        height: 50%;
+        font-size: 100%;
         text-align: center;
-        margin: 4rem;
-       
     }
     .cart{
-        /* margin-top: 10%; */
         color: black;
         background-color:#2FC85A;
         width: 100%;
-        height: 32rem;
+        height: 32%;
         position: relative;
         font-size:50px;
         border-radius: 10px;
         margin: 1rem 1rem 1rem 1rem;
-        /* align-items: center; */
-        /* margin-left: 7px; */
-        /* padding-top:  2%; */
-        /* padding-left: 4%; */
-        /* right: auto; */
     }
     
       
@@ -184,107 +99,4 @@
 
 
 
-@media screen and (max-width: 992px){
-   .icons{
-    display: block;
-    /* width: 100%; */
-    /* padding-left: 19%;  */
-    /* padding-top: 2%; */
-    /* margin-top: -7%; */
-    /* margin-left: -15%; */
-    /* margin-right: -34%; */
-} 
 
-#icon{
-    height: 5rem;
-    width: 5rem;
-}
-
-.cart{
-    /* margin-top: 1rem; */
-    margin: 2rem 2rem 2rem 2rem;
-    color: black;
-    background-color:#2FC85A;
-    width: 100%;
-    /* height: 85vh; */
-    /* position: relative; */
-    /* font-size:50px; */
-    /* border-radius: 10px; */
-    /* margin-left: 7px; */
-    /* padding-top:  2%; */
-    /* padding-left: 4%; */
-    /* right: auto; */
-    text-align: center;
-}
-
-
-
-.order-head{
-    background-color: rgb(250, 250, 250);
-    display: flex;
-    text-align: center;
-    margin: 0 auto;
-    width: 10rem;
-    
-    /* background-position: center; */
-    /* background-size:10rem ; */
-    /* margin-right: 23%; */
-    /* height: 6vh; */
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* padding: 2%; */
-    /* font-size: 9px; */
-    /* font-weight: lighter; */
-}
-
-.orders{
-    /* margin-right: 23%; */
-    /* padding-left: 3%; */
-    /* height: 34%; */
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: center; */
-    background-color: transparent;
-    /* margin-top: 19%; */
-    display: flex;
-    font-size: 1.2rem;
-    /* text-align: center; */
-    width: 32rem;
-    height: 5rem;
-    margin: 0 auto;
-    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
-    /* margin: 1rem 1rem 1rem 1rem; */
-}
-
-.orders p{
-   
-    background-color: rgb(247, 245, 245);
-    
-    padding: 1rem;
-    height: 5rem;
-   
-    /* width: 25rem; */
-    text-align: center;
-    margin: 4rem;
-   
-}
-.cart{
-    /* margin-top: 10%; */
-    color: black;
-    background-color:#2FC85A;
-    width: 100%;
-    height: 32rem;
-    position: relative;
-    font-size:50px;
-    border-radius: 10px;
-    margin: 1rem 1rem 1rem 1rem;
-    /* align-items: center; */
-    /* margin-left: 7px; */
-    /* padding-top:  2%; */
-    /* padding-left: 4%; */
-    /* right: auto; */
-}
-
-  
-}

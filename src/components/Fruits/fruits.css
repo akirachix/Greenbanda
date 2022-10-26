@@ -1,4 +1,4 @@
-*{
+/* *{
   padding: 0%;
   margin: 0%;
 }
@@ -47,4 +47,13 @@
   
   #searchQuerySubmit:hover {
     cursor: pointer;
+  } */
+  .gre{
+    position: relative;
+    /* background-color: red; */
+  }
+  .ser{
+    position: absolute;
+    bottom: -3%;
+    left: 30%;
   }

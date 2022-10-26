@@ -1,10 +1,8 @@
-html, body{
-    margin-left: 0.5rem;
-    padding: 0;
-    /* overflow-x: hidden; */
-}
+/* .navbars{
+    color: #000;
+} */
 
-.links{
+/* .links{
     margin-left: 5%;
     display: flex;
     justify-content: space-between;
@@ -29,7 +27,7 @@ html, body{
     left: 5%;
     align-items: center;
 
-}
+} */
 
 #veg-img{
 height: 40rem;
@@ -55,25 +53,7 @@ span{
     color: #000;
     font-size: 24px;
 }
-.bak{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 23px 90px;
-    width: 30rem;
-    position: absolute;
-    font-size: 30px;
-    font-weight: light;
-    margin: 0 auto;
-    text-align: center;
-    margin: 12rem 23rem 0rem  20rem;    /* background-color: rgba(250, 250, 250, 0.687); */
-}
-.bak p{
-    text-align: center;
-    padding: 2rem 2rem 2rem 2rem;
-    width: 25rem;
-    background-color: rgba(250, 250, 250, 0.687);
-}
+
 .upper{
     
     margin-top: -5%;
@@ -87,6 +67,7 @@ span{
     align-content: center;
 }
 
+
 button{
     width: 15%;
     height: 7vh;
@@ -99,12 +80,11 @@ button{
     color: #2FC85A;
 }
 .opacity{
-    position: absolute;
-    opacity: 34.0%;
+    /* position: absolute; */
+    /* opacity: 34.0%; */
     width: 100%;
     height: 104%;
-    background-color: #ffff;
-}
+filter: brightness(40%);}
 
 
 @media screen and (max-width: 600px){
@@ -140,7 +120,7 @@ button{
 
     .navi{
         /* visibility: hidden; */
-        display: inline;
+        display:block;
         margin-top: 1rem;
         /* margin-left: 2rem ; */
         /* margin-bottom:  0.5rem; */
@@ -238,6 +218,7 @@ overflow-x: hidden;
             height: 4rem;
             margin-bottom: -1rem;
             }
+
         
             .bak p{
                 text-align: center;

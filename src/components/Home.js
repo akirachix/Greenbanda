@@ -1,8 +1,10 @@
 import React from 'react';
+import './home.css';
 import market from "../images/market.jpg";
 import Cards  from './Cards';
 import Footer from './Footer';
 import Navbar from './Navbar';
+import { Button } from 'react-bootstrap';
 
 
 const Home = () =>{
@@ -12,19 +14,23 @@ const Home = () =>{
     <div id="veg">
       <div className='veggies'>
       <Navbar/>
-        <div className='opacity'></div>
-        <div className='bak'> <p>Fresh Vegetables and Fruits from your trusted Suppliers</p></div>
-       
-      <img src= {market}  height="670vh" width="100%" />
+        <div className='opacity'>
+        <div className='img'>
+      <img src= {market}  height="500vh" width="100%" />
       </div>
-      <div className='text'> 
+        </div>
+
+        <div className='bak'> 
+        <p>Fresh Vegetables and Fruits from your trusted Suppliers</p>
       
-      <button>Order Now</button>
+        </div>
 
-     </div>
+        <div className='text'>
+        <Button bg='green' variant='light'>Order Now</Button>
+        </div>
 
-
- 
+      </div>
+      
       <Cards/>
       <Footer/>
       

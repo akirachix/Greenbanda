@@ -11,7 +11,7 @@ import "./SearchBar.css"
                 type="text"
                 id="header-search"
                 placeholder="Search for products"
-                name="s" 
+                // name="s" 
             />
             <button type="submit">Search</button>
             {/* // <FaMagnifyingGlassLocation/> */}

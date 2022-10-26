@@ -1,51 +1,41 @@
 import React from 'react';
-import {  Link } from "react-router-dom";
+// import {  Link } from "react-router-dom";
 import './nav.css'
-// import { icons } from 'react-icons';
+import { icons } from 'react-icons';
 import {FaShoppingCart} from 'react-icons/fa';
+import 'bootstrap/dist/css/bootstrap.min.css';  
+import {Navbar, Container, Nav, NavDropdown} from 'react-bootstrap';
 
-
-const Navbar= () =>{
-  return (
-  <div className='links'>
-    <div className='navlogo'>
-      <h1 className='logo'>GB <span>GreenBanda</span></h1>
-     
-    </div>
-    <div className='navi' >
-              
-          
-
-              <div>
-              <Link className='one' id='one' to="/">Home</Link>
-              </div>
-              <div >
-              <Link className='one' id='one' to="/vegetables">Vegetables</Link>
-              </div>
-              <div >
-              <Link className='one' id='one' to="/fruits">Fruits</Link>
-              </div>
-              
-              <div>
-                  
-              <Link className='one'id='one' to="/login">LogIn</Link>
-              </div>
-
-              <div>
-                  <Link className='nav-link' id='one' to="/login">  
-                  <div className='fa'>
-                      <FaShoppingCart/>
-                    </div>     
-</Link>
-              </div>
-              </div>
-
-    
+const NavBar = () => {
   
-  </div>
+  return (
+  <>
+    <Navbar variant='light' fixed='top' bg="light" expand="lg">  
+    <Container>  
+      <Navbar.Brand href="#home" style={{'color':'green'}}><b>GB</b>GreenBanda</Navbar.Brand> 
+     
+ 
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />  
+     
+      <Navbar.Collapse id="basic-navbar-nav">  
+        <Nav className="ms-auto">  
+          <Nav.Link href="/">Home</Nav.Link>  
+          <Nav.Link href="/Vegetables">Vegetables</Nav.Link>  
+          <Nav.Link href="/Fruits">Fruits</Nav.Link>  
+          <Nav.Link href="/Login">Login</Nav.Link> 
+          <Nav.Link href="/Login"> <FaShoppingCart/>  </Nav.Link> 
+         
+        </Nav>  
+      </Navbar.Collapse>
+      </Container>    
+  </Navbar>
+  </>
+            
+
+
  );
 }
-export default Navbar;
+export default NavBar;
 
 
 

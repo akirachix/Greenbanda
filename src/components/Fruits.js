@@ -3,6 +3,7 @@ import SearchBar from "./SearchBar";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 import market from "../images/market.jpg"
+import "./Fruits/fruits.css"
 
 const Fruits = () => {
   return (
@@ -10,12 +11,17 @@ const Fruits = () => {
     <div>
        <Navbar/>
        <div className='opacity'></div>
-      <div >
+      <div  className="gre">
       <img src= {market}  height="670vh" width="100%" alt="hello" />
+      <div className="ser">
+      <SearchBar />
+      </div>
+      <Footer />
       </div> 
-       <Footer />
+      
+      
        
-        <SearchBar />
+       
        
 
         {/* <div className="top" style={{ display: "inline-block" }}>

@@ -1,12 +1,11 @@
 import React from "react";
 import "./veg.css";
-// import SearchBar from "./SearchBar";
+import SearchBar from "./SearchBar";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 import market from "../images/market.jpg";
 import capsicum from "../images/capsicum.jpg";
 import cucumber from "../images/cucumber.jpg";
-import carrots from "../images/carrots-1.jpg";
 import onions from "../images/onions.jpg";
 import saumu from "../images/saumu.jpeg";
 import tomatoes from "../images/tomatoes.jpeg";
@@ -25,16 +24,13 @@ const Vegetables = () => {
       </div>
 
       <div className="vegs">
-      <div>
         <img src={capsicum} height="12%" width="17%"/>
-        <img src={saumu} height="7%" width="17%"/>
+        <img src={saumu} height="5%" width="17%"/>
         <img src={cucumber} height="12%" width="17%"/>
-        <img src={carrots} height="7%" width="17%"/>
         <img src={onions} height="1%" width="17%"/>
         <img src={tomatoes} height="12%" width="17%"/>
         <img src={Eggplant} height="12%" width="17%"/>
         <img src={cabbages} height="12%" width="17%"/>
-      </div>
 
       </div>
 
@@ -48,6 +44,9 @@ const Vegetables = () => {
 export default Vegetables;
 
 {
+
+
+
   /* <SearchBar/>
     </div>
 
