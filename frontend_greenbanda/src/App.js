@@ -33,7 +33,7 @@ const App=()=>{
             <Route path ="/dashboard">
               <Dashboard/>
             </Route>
-          
+          {/* Router to Route and then to Switch */}
           
             <Route path="/customer">
               <Customer/>
