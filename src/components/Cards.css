@@ -1,39 +1,43 @@
 .icons{
     display: flex;
-    width: 90%;
-    padding-left: 19%; 
-    margin-top: -7%;
-    margin-left: 0%;
+    margin-left: 7rem;
+   
+    /* width: 90%; */
+    /* padding-left: 19%;  */
+    /* margin-top: -7%; */
+    /* margin-left: 0%; */
 }
 .cart{
     color: black;
     background-color:#2FC85A;
-    width: 100%;
-    height: 27rem;
-    position: relative;
-    font-size:60px;
+    width: 300px;
+    padding: 2rem;
+    /* height: 27rem; */
+    /* position: relative; */
+    /* font-size:60px; */
     border-radius: 20px;
-    margin: 7rem 1rem 1rem 1rem;
-    left: -9%;
+    /* margin-left: auto; */
+    margin: 3rem 2rem 1rem 1rem;
+    /* left: -9%; */
 }
-#icon{
-    margin: 1rem 1rem 3rem 1rem;
-    font-size: rem;
-    height: auto;
-    width: 50%;
+.icon{
+    margin: 1rem 1rem 3rem 4rem;
+    /* font-size: rem; */
+    /* height: auto; */
+    /* width: 50%; */
 }
-.order-head{
-    display: flex;
-    margin: 0 auto;
-    font: size 25%;
-    width: 60%;
-    font-weight: lighter;
+.order-head h1{
+    font-size: 25px;
+    text-align: center;
+    /* margin: 0 auto; */
+    /* width: 60%; */
+    /* font-weight: lighter; */
 }
 .orders{
-    display: flex;
-    font-size: 32%;
+    /* display: flex; */
+    /* font-size: 32%; */
     text-align: center;
-    height: 9rem;
+    /* height: 9rem; */
     padding: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
 
@@ -48,7 +52,7 @@
         margin-left: 0%;    
     }
     
-    #icon{
+    .icon{
 
         margin: 1rem 1rem 3rem 1rem;
         font: size 20px;;

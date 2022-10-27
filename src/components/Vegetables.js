@@ -3,26 +3,149 @@ import "./veg.css";
 import SearchBar from "./SearchBar";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
-import market from "../images/market.jpg";
-import capsicum from "../images/capsicum.jpg";
+import onion from "../images/onion.jpg";
+import SweetPotatoes from "../images/SweetPotatoes.jpeg";
+// import Spinach from "../images/spinach.webp";
+import spinach from "../images/spinach.webp";
 import cucumber from "../images/cucumber.jpg";
-import onions from "../images/onions.jpg";
+import brocoli from "../images/brocoli.jpeg";
+import cabbages from "../images/cabbages.webp";
+import Eggplant from "../images/Eggplant.webp";
+import market from "../images/market.jpg";
+import carrots from "../images/carrots-1.jpg";
 import saumu from "../images/saumu.jpeg";
 import tomatoes from "../images/tomatoes.jpeg";
-import Eggplant from "../images/Eggplant.webp";
-import cabbages from "../images/cabbages.webp";
-
 
 const Vegetables = () => {
   return (
     <div>
       <Navbar />
       <div className="opacity"></div>
-
-      <div>
-        <img src={market} height="670vh" width="100%"/>
+      <div className="market-image">
+        <img src={market} height="670vh" width="100%" />
       </div>
 
+      <div className="ser">
+      <SearchBar />
+      </div>
+      <div className="titles">
+        <h4>Recommended Vegetables</h4>
+      </div>
+
+      <div className="category">
+        <div className="veg-category">
+          <div className="sub-box">
+            <div className="vegetatble-title">
+              <h4>Onion</h4>
+            </div>
+          </div>
+
+          <img src={onion} height="206vh" width="100%" />
+        </div>
+        <div className="veg-category">
+          <div className="sub-box">
+            <div className="vegetatble-title">
+              <h4>SweetPotatoes</h4>
+            </div>
+          </div>
+          <img src={SweetPotatoes} height="206vh" width="100%" />
+        </div>
+        <div className="veg-category">
+          <div className="sub-box">
+            <div className="vegetatble-title">
+              <h4>Spinach</h4>
+            </div>
+          </div>
+          <img src={spinach} height="206vh" width="100%" />
+        </div>
+        <div className="veg-category">
+          <div className="sub-box">
+            <div className="vegetatble-title">
+              <h4>Cucumber</h4>
+            </div>
+          </div>
+          <img src={cucumber} height="206vh" width="100%" />
+        </div>
+      </div>
+      <div className="titles">
+        <h4>More Vegetabless</h4>
+      </div>
+      <div className="category">
+        <div className="veg-category">
+          <div className="sub-box">
+            <div className="vegetatble-title">
+              <h4>brocoli</h4>
+            </div>
+          </div>
+
+          <img src={brocoli} height="206vh" width="100%" />
+        </div>
+        <div className="veg-category">
+          <div className="sub-box">
+            <div className="vegetatble-title">
+              <h4>Cabbages</h4>
+            </div>
+          </div>
+          <img src={cabbages} height="206vh" width="100%" />
+        </div>
+        <div className="veg-category">
+          <div className="sub-box">
+            <div className="vegetatble-title">
+              <h4>Egg plant</h4>
+            </div>
+          </div>
+          <img src={Eggplant} height="206vh" width="100%" />
+        </div>
+        <div className="veg-category">
+          <div className="sub-box">
+            <div className="vegetatble-title">
+              <h4>Spinach</h4>
+            </div>
+          </div>
+          <img src={spinach} height="206vh" width="100%" />
+        </div>
+      </div>
+      <div className="category">
+        <div className="veg-category">
+          <div className="sub-box">
+            <div className="vegetatble-title">
+              <h4>Carrots</h4>
+            </div>
+          </div>
+
+          <img src={carrots} height="206vh" width="100%" />
+        </div>
+        <div className="veg-category">
+          <div className="sub-box">
+            <div className="vegetatble-title">
+              <h4>Garlic</h4>
+            </div>
+          </div>
+          <img src={saumu} height="206vh" width="100%" />
+        </div>
+        <div className="veg-category">
+          <div className="sub-box">
+            <div className="vegetatble-title">
+              <h4>Tomatoes</h4>
+            </div>
+          </div>
+          <img src={tomatoes} height="206vh" width="100%" />
+        </div>
+      </div>
+      <vegetablecards />
+
+      <Footer />
+    </div>
+  );
+};
+export default Vegetables;
+
+{
+  {
+
+
+
+    /* 
       <div className="vegs">
         <img src={capsicum} height="12%" width="17%"/>
         <img src={saumu} height="5%" width="17%"/>
@@ -32,20 +155,8 @@ const Vegetables = () => {
         <img src={Eggplant} height="12%" width="17%"/>
         <img src={cabbages} height="12%" width="17%"/>
 
-      </div>
-
-      <Footer />
-     
-    </div>
-
-    
-  );
-};
-export default Vegetables;
-
-{
-
-
+      </div> */
+  }
 
   /* <SearchBar/>
     </div>

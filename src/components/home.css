@@ -31,10 +31,10 @@
 
 @media screen and (max-width: 600px) {
   .text Button {
-    margin-top: 2%;
+    margin-top: 5%;
     position: absolute;
-    left: 30%;
-    width: 39%;
+    margin-left: 32%;
+    /* width: 100px; */
   }
 
   #veggies {
@@ -42,28 +42,47 @@
   }
 
   .bak {
-    left: 55%;
+    left: 60%;
     position: absolute;
     top: 35%;
     transform: translate(-50%, -50%);
-    font-size: 30px;
+    font-size: 50px;
     font-weight: light;
+    /* width: -50rem; */
   }
 
   .bak p {
     text-align: center;
+    font-size: 90%;
+    width: 100rem;
     background-color: rgba(250, 250, 250, 0.687);
   }
 
   * {
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
   }
 }
 
 @media screen and (max-width: 992px) {
-  .bak p {
-    font-size: 1rem;
-  }
+    .text Button {
+        margin-bottom: 2%;
+        position: absolute;
+        left: 30%;
+        width: 20%;
+      }
+
+    .bak p {
+        text-align: center;
+        /* transform: translate(50%, 50%); */
+        margin-bottom: 20%;
+        /* padding: 40%; */
+        position: relative;
+        margin-top: 10px;
+        background-color: rgba(250, 250, 250, 0.687);
+      }
+    
+
+
 }
 
 /* #veg{

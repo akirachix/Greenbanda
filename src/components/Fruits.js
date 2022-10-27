@@ -2,13 +2,24 @@ import React from "react";
 import SearchBar from "./SearchBar";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
-import market from "../images/market.jpg"
-import "./Fruits/fruits.css"
+import market from "../images/market.jpg";
+import "./Fruits/fruits.css";
+import apples from "../images/apples.jpg";
+import avocado from "../images/avocado.jpg";
+import banana from "../images/banana.webp";
+import guava from "../images/guava.jpg";
+import mangoes from "../images/mangoes.jpg";
+import oranges from "../images/oranges.jpeg";
+import pears from "../images/pears.jpg";
+import pinapple from "../images/pineapple.webp";
+import strawberry from "../images/strawberry.jpg";
+import watermelon from "../images/watermelon.jpeg";
+import passion from "../images/passion.jpg";
+import coconut from "../images/coconut.jpg";
 
 const Fruits = () => {
   return (
-
-    <div>
+      <div>
        <Navbar/>
        <div className='opacity'></div>
       <div  className="gre">
@@ -16,104 +27,132 @@ const Fruits = () => {
       <div className="ser">
       <SearchBar />
       </div>
-      <Footer />
-      </div> 
-      
-      
-       
-       
-       
+ 
+      <div className="titles">
+        <h4>Recommended Fruits</h4>
+      </div>
+      <div className="category">
+       <div className="Fruit-category">
+        <div className="fruit-category">
+          <div className="sub-box">
+            <div className="fruit-title">
+              <h4>Apples</h4>
+            </div>
+          </div>
 
-        {/* <div className="top" style={{ display: "inline-block" }}>
-          <img src={vegetables} height="100%" width="100%" />
-        </div> */}
-       
-    </div>
+          <img src={apples} height="206vh" width="100%" />
+        </div>
+        </div>
+
+        <div className="Fruit-category">
+          <div className="sub-box">
+            <div className="fruit-title">
+              <h4>Avocado</h4>
+            </div>
+          </div>
+          <img src={avocado} height="206vh" width="100%" />
+
+          </div>
+          <div className="Fruit-category">
+          <div className="sub-box">
+            <div className="fruit-title">
+              <h4>Bananas</h4>
+            </div>
+          </div>
+          <img src={banana} height="206vh" width="100%" />
+        </div>
+        
+        <div className="Fruit-category">
+          <div className="sub-box">
+            <div className="fruit-title">
+              <h4>Guava</h4>
+            </div>
+          </div>
+          <img src={guava} height="206vh" width="100%" />
+          </div>
+          </div>
+
+          <div className="titles">
+        <h4>More Fruits</h4>
+      </div>
+      <div className="category">
+        <div className="Fruit-category">
+          <div className="sub-box">
+            <div className="vegetatble-title">
+              <h4>Mangoes</h4>
+            </div>
+          </div>
+
+          <img src={mangoes} height="206vh" width="100%" />
+        </div>
+        <div className="veg-category">
+          <div className="sub-box">
+            <div className="vegetatble-title">
+              <h4>Oranges</h4>
+            </div>
+          </div>
+          <img src={oranges} height="206vh" width="100%" />
+        </div>
+        <div className="veg-category">
+          <div className="sub-box">
+            <div className="vegetatble-title">
+              <h4>Pears</h4>
+            </div>
+          </div>
+          <img src={pears} height="206vh" width="100%" />
+        </div>
+        <div className="veg-category">
+          <div className="sub-box">
+            <div className="vegetatble-title">
+              <h4>Pineapple</h4>
+            </div>
+          </div>
+          <img src={pinapple} height="206vh" width="100%" />
+        </div>
+      </div>
+      <div className="category">
+        <div className="Fruit-category">
+          <div className="sub-box">
+            <div className="vegetatble-title">
+              <h4>Strawberries</h4>
+            </div>
+          </div>
+
+          <img src={strawberry} height="206vh" width="100%" />
+        </div>
+        <div className="Fruit-category">
+          <div className="sub-box">
+            <div className="vegetatble-title">
+              <h4>Water melon</h4>
+            </div>
+          </div>
+          <img src={watermelon} height="206vh" width="100%" />
+        </div>
+        <div className="Fruit-category">
+          <div className="sub-box">
+            <div className="vegetatble-title">
+              <h4>Cococnut</h4>
+            </div>
+          </div>
+          <img src={coconut} height="206vh" width="100%" />
+        </div>
+        <div className="Fruit-category">
+          <div className="sub-box">
+            <div className="vegetatble-title">
+              <h4>Passion</h4>
+            </div>
+          </div>
+          <img src={passion} height="206vh" width="100%" />
+        </div>
+      </div> 
+
+      <Footer />
+    </div> 
+    
+  </div>  
+  
+
   );
 };
 export default Fruits;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// import React from 'react';
-// import "./fruits.css";
-// import Container from 'react-bootstrap/Container';
-// // import veg from './components/vegetables.jpg';
-// import Card from 'react-bootstrap/Card';
-// import Col from 'react-bootstrap/Col';
-// import Row from 'react-bootstrap/Row';
-// import Mangoes from './imgfruits/mangoes.jpg'
-// import nav from "./Nav";
-
-// function Fruits() {
-//     return(
-//       <div>
-//      <div>
-//      <nav/>
-//      {/* <Navbar style={{backgroundColor: "#2FC85A"}} variant="#2FC85A">
-//         <Container>
-//           <Navbar.Brand href="/">Navbar</Navbar.Brand>
-//           <Nav className="me-auto" style={{marginLeft:'70%'}}>
-//             <Nav.Link href="/" style={{color:'white'}}>Home</Nav.Link>
-//             <Nav.Link href="/Fruits" style={{color:'white'}}>Fruits</Nav.Link>
-//             <Nav.Link href="/Vegetables" style={{color:'white'}}>Vegetables</Nav.Link>
-//           </Nav>
-//         </Container>
-//       </Navbar> */}
-//       </div>
-//       <div className='Container'>
-//     {/* <img src={veg} alt='veg-img' width='100%' />   */}
-//     <div class="p-1 bg-light rounded rounded-pill shadow-sm mb-4">
-//             <div class="input-group">
-//               <input type="search" placeholder="What're you searching for?" aria-describedby="button-addon1" class="form-control border-0 bg-light"/>
-//               <div class="input-group-append">
-//                 <button id="button-addon1" type="submit" class="btn btn-link text-primary"><i class="fa fa-search"></i></button>
-//               </div>
-//             </div>
-//           </div>
-// </div>
-
-// <Container>
-//     <Row xs={1} md={2} className="g-4">
-//       {Array.from({ length: 4 }).map((_, idx) => (
-//         <Col>
-//           <Card>
-//             <Card.Img variant="top" src={Mangoes} />
-//             <Card.Body>
-//               <Card.Title>Mangoes</Card.Title>
-//               <Card.Text>
-//                 This is a longer card with supporting text below as a natural
-//                 lead-in to additional content. This content is a little bit
-//                 longer.
-//               </Card.Text>
-//             </Card.Body>
-//           </Card>
-//         </Col>
-//       ))}
-//     </Row>
-
-// </Container>
-
-//     </div>
-
-//  )
-// }
-// export default Fruits;

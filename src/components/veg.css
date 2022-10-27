@@ -1,15 +1,5 @@
-.wrapper {
-    width: 100%;
-    max-width: 31.25rem;
-    margin: 6rem auto;
-  }
-  
-  .label {
-    font-size: .625rem;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: +1.3px;
-    margin-bottom: 1rem;
+.market-image{
+    margin-top: -25%;
   }
   
   .searchBar {
@@ -51,6 +41,43 @@
   .vegs{
 padding-left: 20px;
     }
+
+
+    /* cart  */
+.category{
+display: flex;
+}
+.veg-category{
+  margin: 23px;
+  border-radius: 8%;
+  width: 21%;
+  height: 34vh;
+  background-color: #1af634;
+}
+.sub-box{
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 23px;
+  width: 16%;
+  height: 8vh;
+  background-color: orange;
+}
+.vegetatble-title{
+  display: flex;
+  justify-content: center;
+  margin-top: 11%;
+}
+.titles{
+  margin-left: 3%;
+}
+
+
+.ser{
+  position: absolute;
+  bottom: 58%;
+  left: 34%;
+}
+
 
    
   

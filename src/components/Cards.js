@@ -14,7 +14,7 @@ const Cards = () => {
     <div className="icons">
       <div className="cart">
         <div className="order-cart">
-          <img  id="icon"  src={makeorder} height="230vh" alt="make order" />
+          <img  className="icon"  src={makeorder} height="100" width='100' alt="make order" />
 
           {/* <FaCartArrowDown/> */}
         </div>
@@ -24,14 +24,14 @@ const Cards = () => {
         <div className="orders">
           <p>
             Order from your trusted suppler of your choice, an grow your
-            business.{" "}
+            business.
           </p>
         </div>
       </div>
 
       <div className="cart">
         <div className="order-cart">
-          <img id="icon" src={payorder} height="230vh" alt="make order" />
+          <img className="icon" src={payorder} height="100" width='100' alt="make order" />
 
           {/* <FaDollarSign/> */}
         </div>
@@ -46,7 +46,7 @@ const Cards = () => {
       <div className="cart">
         <div className="order-cart">
           {/* <FaTruck/> */}
-          <img  id="icon"  src={fastdev} height="230vh" alt=" fast delivery" />
+          <img  className="icon"  src={fastdev} height="100" width='100' alt=" fast delivery" />
         </div>
         <div className="order-head">
           <h1>Get Fast Delivery</h1>
