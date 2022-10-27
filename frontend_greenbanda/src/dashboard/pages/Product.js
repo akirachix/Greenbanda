@@ -1,5 +1,5 @@
 import React from "react";
-
+import onion from '../dash-img/onions.jpg';
 import Navigate from "../Navigate";
 import Sidebar from "../Sidebar";
 const Product = ({ children }) => {
@@ -18,39 +18,134 @@ const Product = ({ children }) => {
             {children}
             <div className="dash-head">
 
-            <h1>Dashboard Page</h1>
+            <h1>Product List</h1>
+            <div className="nav-but">
+              <div className="but">
+                <button className="btn-button">Upload</button>
+                <button className="btn-button">Add New</button >
+              </div>
             </div>
+            </div>
+            <div className="back-color-products">
+              <div className="category-search">
+                <input className="input-search" placeholder="search...."/>
 
-            <div className="boxes">
-              <div className="box">
-              <div className="sub-header">
-              <h6>Total Amount</h6>
-            </div>
+                <div className="vegetable-btn">
+                <button className="btn-button">Category</button>
+                <button className="btn-button"> Last Added</button>
+                </div>
+              </div>
+              <div className="all-products">
+                <div className="row">
+                  <div className="wrap">
+                    <img src={onion} alt="Market"  width="100%" height="177.5vh"/>
+                
+
+                  </div>
+                  <div className="wrap">
+                  <img src={onion} alt="Market"  width="100%" height="177.5vh"/>
+
+</div>
+<div className="wrap">
+<img src={onion} alt="Market"  width="100%" height="177.5vh"/>
+
+</div>
+<div className="wrap">
+<img src={onion} alt="Market"  width="100%" height="177.5vh"/>
+
+</div>
+                  
+
+                </div>
+                <div className="row">
+                  <div className="wrap">
+                  <img src={onion} alt="Market"  width="100%" height="177.5vh"/>
+
+                  </div>
+                  <div className="wrap">
+                  <img src={onion} alt="Market"  width="100%" height="177.5vh"/>
+
+</div>
+<div className="wrap">
+<img src={onion} alt="Market"  width="100%" height="177.5vh"/>
+
+</div>
+<div className="wrap">
+<img src={onion} alt="Market"  width="100%" height="177.5vh"/>
+
+</div>
+                  
+
+                </div>
+                <div className="row">
+                  <div className="wrap">
+                  <img src={onion} alt="Market"  width="100%" height="177.5vh"/>
+
+                  </div>
+                  <div className="wrap">
+                  <img src={onion} alt="Market"  width="100%" height="177.5vh"/>
+
+</div>
+<div className="wrap">
+<img src={onion} alt="Market"  width="100%" height="177.5vh"/>
+
+</div>
+<div className="wrap">
+<img src={onion} alt="Market"  width="100%" height="177.5vh"/>
+
+</div>
+
+                  
+
+                </div>
+                <div className="row">
+                  <div className="wrap">
+                  <img src={onion} alt="Market"  width="100%" height="177.5vh"/>
+
+                  </div>
+                  <div className="wrap">
+                  <img src={onion} alt="Market"  width="100%" height="177.5vh"/>
+
+</div>
+<div className="wrap">
+<img src={onion} alt="Market"  width="100%" height="177.5vh"/>
+
+</div>
+<div className="wrap">
+<img src={onion} alt="Market"  width="100%" height="177.5vh"/>
+
+</div>
+                  
+
+                </div>
+                <div className="row">
+                  <div className="wrap">
+                  <img src={onion} alt="Market"  width="100%" height="177.5vh"/>
+
+                  </div>
+                  <div className="wrap">
+                  <img src={onion} alt="Market"  width="100%" height="177.5vh"/>
+
+</div>
+<div className="wrap">
+<img src={onion} alt="Market"  width="100%" height="177.5vh"/>
+
+</div>
+<div className="wrap">
+<img src={onion} alt="Market"  width="100%" height="177.5vh"/>
+
+</div>
+                  
+
+                </div>
 
               </div>
-                <div className="box">
-                <div className="sub-header">
-              <h6>Orders</h6>
-            </div>
-
-              </div>
-              <div className="box">
-              <div className="sub-header">
-              <h6>Stock Totals</h6>
-            </div>
-
-              </div>
-
 
             </div>
-            <div className="graph">
-              <div className="sub-header">
 
-            <h6>Graph</h6>
-              </div>
-
+            
              
-            </div>
+          
            
            
            
@@ -62,8 +157,6 @@ const Product = ({ children }) => {
     </div>
   );
 };
-<div className="sectiFon">
-  <div className="sect-main">Product Page</div>
-</div>;
+
 
 export default Product;

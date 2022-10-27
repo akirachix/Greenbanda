@@ -154,6 +154,9 @@ menuitem{
     display: flex;
     /* background-color: #424d45; */
 }
+.sect-main{
+    height: 674vh;
+}
 .children{
     display: flex;
     align-items: center;
@@ -201,12 +204,32 @@ menuitem{
     background-color: #fff;
     box-shadow: 1px 1px 3px 2px #2FC85A;
 }
+.icon-cicle{
+    border-radius: 56%;
+    width: 20%;
+    height: 10vh;
+    margin-top: 15%;
+    margin-right: -24%;
+    background-color: #2FC85A;
+   
+}
+.sub-header2{
+    display: flex;
+    padding-left: 10%;
+    
+    
+}
+.dash-icon{
+    margin-top: -34%;
+    margin: 10%;
+    height: 2vh;
+    color: #fff;
+}
 .sub-header{
     font-weight: lighter;
     font-size: 26px;
     color: #2FC85A;
-    display: flex;
-    justify-content: center;
+   
 }
 .graph{
     margin-top: 5%;
@@ -216,3 +239,130 @@ menuitem{
     background-color: #fff;
     box-shadow: 1px 1px 3px 2px #2FC85A;
 }
+.latest{
+    margin-top: 3%;
+    margin-left: 4%;
+}
+.border{
+    margin: 30px;
+    margin-left: 5%;
+    padding: 23px;
+    width: 90%;
+    box-shadow: 2px 3px 3px 2px;
+    height: 950vh;
+    /* background-color: #000; */
+}
+
+.table{
+    margin-left: 5%;
+
+}
+th{
+    background-color: #2FC85A;
+} 
+
+.content-table{
+   
+    width: 88%;
+    height: 100vh;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+
+}
+.content-table thead th{
+    background-color: #2FC85A;
+    color: #000;
+    text-align: left;
+    font-weight: bold;
+    padding: 12px 15px ;
+}
+.content-table thead tr{
+    border-bottom: 1px solid #000;
+
+}
+.content-table thead tr:nth-of-type(even){
+    background-color: #f1f8f3;
+    
+}
+/* ....................
+product style 
+........................*/
+.nav-but{
+    width: 90%;
+    height: 8vh;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 6%;
+    margin-bottom: 2%;
+
+    
+}
+.but{
+    width: 33%;
+    padding-right: -23%;
+    
+
+}
+
+.btn-button{
+    width: 40%;
+    padding: 3%;
+    margin: 2%;
+    background-color: #fff;
+    color: #2FC85A;
+    border: 2px solid #2FC85A;
+    border-radius: 12px;
+
+}
+.back-color-products{
+    margin-left: 5%;
+    width: 90%;
+    height: 230vh;
+    background-color: #9CC85A;
+}
+.category-search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+.input-search{
+    width: 37%;
+    border-radius: 8px;
+    margin-top: 4%;
+    margin-left: 4%;
+    height: 6vh;
+    padding-left: 3%;
+    border: none;
+
+}
+.vegetable-btn{
+    width: 34%;
+}
+.row{
+    display: flex;
+    margin: 1%;
+}
+.wrap{
+    margin: 1%;
+}
+
+.wrap img{
+    margin-left: 1%;
+    margin-right: 1%;
+    border-radius: 12%;
+    border-radius: 14px;
+}
+.border-category{
+    margin: 30px;
+    margin-left: 2%;
+    padding: 23px;
+    width: 90%;
+    box-shadow: 2px 3px 3px 2px;
+    height: 160vh;
+}
+

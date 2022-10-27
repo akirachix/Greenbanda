@@ -14,47 +14,275 @@ const Transaction = ({ children }) => {
             <Sidebar />
           </div>
 
-            <div className="sect-main">
+          <div className="sect-main">
             {children}
             <div className="dash-head">
 
-            <h1>Transaction Page</h1>
-            </div>
-
-            <div className="boxes">
-              <div className="box">
-              <div className="sub-header">
-              <h6>Total Amount</h6>
-            </div>
-
+            <h1>Transaction List</h1>
+            <div className="nav-but">
+              <div className="but">
+                <button className="btn-button">Upload</button>
+                <button className="btn-button">Add New</button>
               </div>
-                <div className="box">
-                <div className="sub-header">
-              <h6>Orders</h6>
             </div>
+            </div>
+            <div className="back-color-products">
+              <div className="category-search">
+                <input className="input-search" placeholder="search...."/>
 
+                <div className="vegetable-btn">
+                <button className="btn-button">Category</button>
+                <button className="btn-button"> Last Added</button>
+                </div>
               </div>
-              <div className="box">
-              <div className="sub-header">
-              <h6>Stock Totals</h6>
-            </div>
+              <div className="border-category">
+        
+      <form  className="table">
+        <table className="content-table">
+          <thead>
+            <tr>
+              <th>Year</th>
+              <th>Name</th>
+              <th>Phone Number</th>
+              <th>Price</th>
+              <th>Status</th>
+              <th>Date</th>
 
-              </div>
-
-
-            </div>
-            <div className="graph">
-              <div className="sub-header">
-
-            <h6>Graph</h6>
-              </div>
-
-             
-            </div>
-           
-           
-           
+            </tr>
+            <tr>
+              <td>2022</td>
+              <td>Jane Tolentino</td>
+              <td>0745457444</td>
+              <td>Ksh 345</td>
+              <td>Delivered</td>
+              <td>26.10.2022</td>    
+            </tr>
+            <tr>
+              <td>2022</td>
+              <td>Jane Tolentino</td>
+              <td>0745457444</td>
+              <td>Ksh 345</td>
+              <td>Delivered</td>
+              <td>26.10.2022</td>              
+            </tr>
+            <tr>
+              <td>2022</td>
+              <td>Jane Tolentino</td>
+              <td>0745457444</td>
+              <td>Ksh 345</td>
+              <td>Delivered</td>
+              <td>26.10.2022</td>              
+            </tr>
+            <tr>
+              <td>2022</td>
+              <td>Jane Tolentino</td>
+              <td>0745457444</td>
+              <td>Ksh 345</td>
+              <td>Delivered</td>
+              <td>26.10.2022</td>              
+            </tr>     <tr>
+              <td>2022</td>
+              <td>Jane Tolentino</td>
+              <td>0745457444</td>
+              <td>Ksh 345</td>
+              <td>Delivered</td>
+              <td>26.10.2022</td>              
+            </tr>     <tr>
+              <td>2022</td>
+              <td>Jane Tolentino</td>
+              <td>0745457444</td>
+              <td>Ksh 345</td>
+              <td>Delivered</td>
+              <td>26.10.2022</td>              
+            </tr>     <tr>
+              <td>2022</td>
+              <td>Jane Tolentino</td>
+              <td>0745457444</td>
+              <td>Ksh 345</td>
+              <td>Delivered</td>
+              <td>26.10.2022</td>              
+            </tr>     <tr>
+              <td>2022</td>
+              <td>Jane Tolentino</td>
+              <td>0745457444</td>
+              <td>Ksh 345</td>
+              <td>Delivered</td>
+              <td>26.10.2022</td>              
+            </tr>     <tr>
+              <td>2022</td>
+              <td>Jane Tolentino</td>
+              <td>0745457444</td>
+              <td>Ksh 345</td>
+              <td>Delivered</td>
+              <td>26.10.2022</td>              
+            </tr>     <tr>
+              <td>2022</td>
+              <td>Jane Tolentino</td>
+              <td>0745457444</td>
+              <td>Ksh 345</td>
+              <td>Delivered</td>
+              <td>26.10.2022</td>              
+            </tr>     <tr>
+              <td>2022</td>
+              <td>Jane Tolentino</td>
+              <td>0745457444</td>
+              <td>Ksh 345</td>
+              <td>Delivered</td>
+              <td>26.10.2022</td>              
+            </tr>     <tr>
+              <td>2022</td>
+              <td>Jane Tolentino</td>
+              <td>0745457444</td>
+              <td>Ksh 345</td>
+              <td>Delivered</td>
+              <td>26.10.2022</td>              
+            </tr>     <tr>
+              <td>2022</td>
+              <td>Jane Tolentino</td>
+              <td>0745457444</td>
+              <td>Ksh 345</td>
+              <td>Delivered</td>
+              <td>26.10.2022</td>              
+            </tr>     <tr>
+              <td>2022</td>
+              <td>Jane Tolentino</td>
+              <td>0745457444</td>
+              <td>Ksh 345</td>
+              <td>Delivered</td>
+              <td>26.10.2022</td>              
+            </tr>     <tr>
+              <td>2022</td>
+              <td>Jane Tolentino</td>
+              <td>0745457444</td>
+              <td>Ksh 345</td>
+              <td>Delivered</td>
+              <td>26.10.2022</td>              
+            </tr>
+            <tr>
+              <td>2022</td>
+              <td>Jane Tolentino</td>
+              <td>0745457444</td>
+              <td>Ksh 345</td>
+              <td>Delivered</td>
+              <td>26.10.2022</td>              
+            </tr> <tr>
+              <td>2022</td>
+              <td>Jane Tolentino</td>
+              <td>0745457444</td>
+              <td>Ksh 345</td>
+              <td>Delivered</td>
+              <td>26.10.2022</td>              
+            </tr> <tr>
+              <td>2022</td>
+              <td>Jane Tolentino</td>
+              <td>0745457444</td>
+              <td>Ksh 345</td>
+              <td>Delivered</td>
+              <td>26.10.2022</td>              
+            </tr> <tr>
+              <td>2022</td>
+              <td>Jane Tolentino</td>
+              <td>0745457444</td>
+              <td>Ksh 345</td>
+              <td>Delivered</td>
+              <td>26.10.2022</td>              
+            </tr> <tr>
+              <td>2022</td>
+              <td>Jane Tolentino</td>
+              <td>0745457444</td>
+              <td>Ksh 345</td>
+              <td>Delivered</td>
+              <td>26.10.2022</td>              
+            </tr> <tr>
+              <td>2022</td>
+              <td>Jane Tolentino</td>
+              <td>0745457444</td>
+              <td>Ksh 345</td>
+              <td>Delivered</td>
+              <td>26.10.2022</td>              
+            </tr> <tr>
+              <td>2022</td>
+              <td>Jane Tolentino</td>
+              <td>0745457444</td>
+              <td>Ksh 345</td>
+              <td>Delivered</td>
+              <td>26.10.2022</td>              
+            </tr> <tr>
+              <td>2022</td>
+              <td>Jane Tolentino</td>
+              <td>0745457444</td>
+              <td>Ksh 345</td>
+              <td>Delivered</td>
+              <td>26.10.2022</td>              
+            </tr> <tr>
+              <td>2022</td>
+              <td>Jane Tolentino</td>
+              <td>0745457444</td>
+              <td>Ksh 345</td>
+              <td>Delivered</td>
+              <td>26.10.2022</td>              
+            </tr> <tr>
+              <td>2022</td>
+              <td>Jane Tolentino</td>
+              <td>0745457444</td>
+              <td>Ksh 345</td>
+              <td>Delivered</td>
+              <td>26.10.2022</td>              
+            </tr> <tr>
+              <td>2022</td>
+              <td>Jane Tolentino</td>
+              <td>0745457444</td>
+              <td>Ksh 345</td>
+              <td>Delivered</td>
+              <td>26.10.2022</td>              
+            </tr> <tr>
+              <td>2022</td>
+              <td>Jane Tolentino</td>
+              <td>0745457444</td>
+              <td>Ksh 345</td>
+              <td>Delivered</td>
+              <td>26.10.2022</td>              
+            </tr> <tr>
+              <td>2022</td>
+              <td>Jane Tolentino</td>
+              <td>0745457444</td>
+              <td>Ksh 345</td>
+              <td>Delivered</td>
+              <td>26.10.2022</td>              
+            </tr> <tr>
+              <td>2022</td>
+              <td>Jane Tolentino</td>
+              <td>0745457444</td>
+              <td>Ksh 345</td>
+              <td>Delivered</td>
+              <td>26.10.2022</td>              
+            </tr> <tr>
+              <td>2022</td>
+              <td>Jane Tolentino</td>
+              <td>0745457444</td>
+              <td>Ksh 345</td>
+              <td>Delivered</td>
+              <td>26.10.2022</td>              
+            </tr> <tr>
+              <td>2022</td>
+              <td>Jane Tolentino</td>
+              <td>0745457444</td>
+              <td>Ksh 345</td>
+              <td>Delivered</td>
+              <td>26.10.2022</td>              
+            </tr> 
             
+
+            
+          </thead>
+         
+        </table>
+      </form>
+        </div> 
+            
+
+              </div>
+
             </div>
           </div>
         </div>
@@ -62,8 +290,6 @@ const Transaction = ({ children }) => {
     </div>
   );
 };
-<div className="sectiFon">
-  <div className="sect-main">Transaction Page</div>
-</div>;
+
 
 export default Transaction;
