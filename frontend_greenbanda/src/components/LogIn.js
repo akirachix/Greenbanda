@@ -1,5 +1,4 @@
 import './LogIn.css';
-import './App.js';
 import {Link } from "react-router-dom";
 // import { useState,useEffect } from 'react';
 import {FaShoppingCart} from "react-icons/fa";
