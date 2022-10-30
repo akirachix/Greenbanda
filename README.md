@@ -14,3 +14,4 @@ Greenbanda's goal is to ensure that green kiosk vendors receive fresh products d
 With the innovative world, we decided to develop a Web app, hosted on a public domain, preferably greensbanda.co.ke, to assist green kiosk vendors in easily accessing suppliers. This ensures that vendors receive products from a reliable supplier, transparent pricing, and that long journeys are avoided.
 # Users of the system
 The system is used by suppliers and vendors.
+
