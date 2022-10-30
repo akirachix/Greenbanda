@@ -14,7 +14,7 @@ const Transaction = ({ children }) => {
             <Sidebar />
           </div>
 
-            <div className="sect-main">
+          <div className="sect-main">
             {children}
             <div className="dash-head">
 

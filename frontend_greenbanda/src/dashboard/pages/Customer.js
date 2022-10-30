@@ -14,7 +14,7 @@ const Customer = ({ children }) => {
             <Sidebar />
           </div>
 
-            <div className="sect-main">
+          <div className="sect-main">
             {children}
 
             <div className="dash-head">
@@ -162,25 +162,18 @@ const Customer = ({ children }) => {
             </div>
 
               </div>
-              <div className="boxing">
-              <div className="sub-header">
-              <h6>Last Added</h6>
-            </div>
-
-              </div>
-
+              
+     
 
            </div>
 
 
             </div>
+
            
-           
-           
-            
-            </div>
           </div>
         </div>
+      </div>
       </div>
       );
 };
