@@ -72,9 +72,6 @@ const postdata = () =>{
 }
  
 
- 
-  
-
 
   return(
     <>
