@@ -1,16 +1,16 @@
 import './LogIn.css';
 import './App.js';
 import {Link } from "react-router-dom";
-import { useState,useEffect } from 'react';
+// import { useState,useEffect } from 'react';
 import {FaShoppingCart} from "react-icons/fa";
-import React, { Component }  from 'react';
+import React  from 'react';
 
 
 
 
 function LogIn() {
-    const  [PhoneNumber, setphoneNumber]= useState('');
-    const  [password, setPassword]= useState('');
+    // const  [PhoneNumber, setphoneNumber]= useState('');
+    // const  [password, setPassword]= useState('');
 
 
 

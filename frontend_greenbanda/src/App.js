@@ -2,14 +2,14 @@
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import SignUp from "./SignUp";
 import LogIn from "./LogIn";
-import Dashboard from "./Dashboard";
-import React, { Component }  from 'react';
+import Dashboard from "../src/dashboard/Dashboard";
+import React from 'react';
 import Home from "./Home";
 import "./App.css";
-import Customer from "./pages/Customer";
-import Transaction from "./pages/Transaction";
-import Order from "./pages/Order";
-import Product from "./pages/Product";
+import Customer from "./dashboard/pages/Customer";
+import Transaction from "./dashboard/pages/Transaction";
+import Order from "./dashboard/pages/Order";
+import Product from "./dashboard/pages/Product";
 
 
 const App=()=>{
@@ -27,6 +27,7 @@ const App=()=>{
           <Route path="/signup">
               <SignUp/>
             </Route>
+            
             <Route path ="/login">
               <LogIn />
             </Route>

@@ -42,27 +42,7 @@
     margin-top: 48%;
     margin-left: 5%;
 }
-/* .btn-login{
-    margin-top: 5%;
-    border-radius: 23px;
-    background-color: #EE6B4F;
-    border: none;
-    padding: 12px;
-    width: 50%;
-} */
-/* .btn-login:hover{
-    box-shadow: 0.1rem 0.1rem 0.1rem grey;
-} */
 
-
-/* #span{
-    color: #EE6B4F;
-    margin-left: 4px; 
-} */
-/* #span:hover{
-    text-decoration: none;
-    color: #c42f0d;
-} */
 
 .topbar{
     width: 100%;
@@ -91,10 +71,8 @@ main{
     padding: 20px;
 }
 .sidebar{
-    /* margin-left: 45px; */
     box-shadow: 0px 3px 4px 2px ;
     background: #fff;
-    /* margin-top: -5.7%; */
     color: #000;
     height: 100vh;
     width: 200px;
@@ -153,6 +131,7 @@ main{
     font-size: 15px;
 }
 .section{
+    /* margin-top: -7.2%; */
     width: 100%;
     display: block;
 }
@@ -169,20 +148,32 @@ main{
 menuitem{
     letter-spacing: 45px;
 }
+.search{
+    display: flex;
+    /* background-color: #424d45; */
+}
+.children{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 17%;
+}
+.navigation-bar{
+    width: 100%;
+}
 .search-input{
     width: 45%;
     height:44%;
     padding-left: 21px;
     margin-top: 34px;
-    /* margin-left: -40%; */
     border-radius: 15px;
     border: none;
 }
 .icons{
     display: flex;
     justify-content: space-around;
-    width: 6%;
-    margin-right: -14%;
+    width: 13%;
+    margin-right: -78%;
     font-size: 134%;
 }
 
@@ -190,3 +181,4 @@ menuitem{
     margin-left: 3%;
     font-size: 23px;
 }
+

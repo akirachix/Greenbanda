@@ -1,7 +1,7 @@
 import './Home.css';
 import './App.js';
-import React, { Component }  from 'react';
-import ReactDOM from 'react-dom'
+import React  from 'react';
+// import ReactDOM from 'react-dom'
 import  { Link } from 'react-router-dom';
 import {FaShoppingCart} from "react-icons/fa"
 
@@ -11,7 +11,7 @@ function Home() {
     return(
        
 
-        
+
         <div className='body'>
             <div className='nav'>
                 <div className='logo'>
