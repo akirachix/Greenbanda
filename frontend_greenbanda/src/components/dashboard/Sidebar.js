@@ -2,7 +2,6 @@
 
 import React, { useState } from "react";
 import "./Dashboard.css";
-import "../App.js";
 import { Link, NavLink } from "react-router-dom";
 import {
   FaTh,
