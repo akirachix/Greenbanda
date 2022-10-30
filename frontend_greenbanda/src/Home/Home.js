@@ -1,5 +1,5 @@
 import './Home.css';
-import './App.js'
+import '../App.js'
 import { Link } from 'react-router-dom';
 import {FaShoppingCart} from "react-icons/fa"
 
