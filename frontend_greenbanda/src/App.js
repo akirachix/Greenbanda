@@ -1,9 +1,12 @@
 
 import { BrowserRouter, Switch, Route } from "react-router-dom";
+
 import SignUp from "./components/SignUp";
 import LogIn from "./components/LogIn";
 import Dashboard from "./components/dashboard/Dashboard";
 import Home from "./components/Home/Home";
+import Fruits from "./components/Home/Fruits";
+import Vegetables from "./components/Home/Vegetables";
 import "./App.css";
 import Customer from "./components/dashboard/pages/Customer";
 import Transaction from "./components/dashboard/pages/Transaction";
@@ -30,6 +33,14 @@ const App=()=>{
             <Route path ="/login">
               <LogIn />
             </Route>
+            <Route path ="/vegetables">
+              <Vegetables />
+            </Route>
+
+            <Route path ="/fruits">
+              <Fruits />
+            </Route>
+
             <Route path ="/dashboard">
               <Dashboard/>
             </Route>
