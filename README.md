@@ -11,6 +11,6 @@ A typical day for a green kiosk vendor begins at 4 a.m, when they begin their jo
 
 Greenbanda's goal is to ensure that green kiosk vendors receive fresh products directly from suppliers, hence boosting the supply chain.
 
-With the innovative world, we decided to develop a Web app, hosted on a public domain, preferably greensbanda.co.ke, to assist green kiosk vendors in easily accessing suppliers. This ensures that vendors receive products from a reliable supplier, transparent pricing, and that long journeys are avoided.
-# Users of the system
-The system is used by suppliers and vendors.
+With the Innovative world, we decided to develop a Web app, hosted on a public domain, preferably greensbanda.co.ke, to assist green kiosk vendors in easily accessing suppliers. This ensures that vendors receive products from a reliable supplier, transparent pricing, and that long journeys are avoided.
+# Users of the System
+The system is used by Suppliers and Vendors.
