@@ -33,37 +33,125 @@ function Fruits() {
             <div className='categories'>
                     <h4>Recommended Products</h4>
                 <div className='all-vegetables'>
+                <div className="vegetatble-desciption-img">
+            <div className="vegetatble-desciption">
+              <h1>Apples</h1>
+            </div>
+          </div>
 
-            <img className='vegetable-category' src={apples} alt="Market" width="%" height=""/> 
-            <img className='vegetable-category' src={avocado} alt="Market" width="%" height=""/>   
-            <img className='vegetable-category' src={banana} alt="Market" width="%" height=""/>    
+            <img className='vegetable-category' src={apples} alt="Market" width="%" height=""/>
+
+            <div className="vegetatble-desciption-img">
+            <div className="vegetatble-desciption">
+              <h1>Avocado</h1>
+            </div>
+          </div> 
+            <img className='vegetable-category' src={avocado} alt="Market" width="%" height=""/> 
+
+
+            <div className="vegetatble-desciption-img">
+            <div className="vegetatble-desciption">
+              <h1>Bananas</h1>
+            </div>
+          </div>  
+            <img className='vegetable-category' src={banana} alt="Market" width="%" height=""/> 
+
+
+            <div className="vegetatble-desciption-img">
+            <div className="vegetatble-desciption">
+              <h1>Coconuts</h1>
+            </div>
+          </div>   
             <img className='vegetable-category' src={coconut} alt="Market" width="%" height=""/> 
+
            
 
                 </div>
                 <h4>More Products</h4>
                 <div className='all-vegetables'>
+                <div className="vegetatble-desciption-img">
+            <div className="vegetatble-desciption">
+              <h1>Guavas</h1>
+            </div>
+          </div> 
                
-               <img className='vegetable-category' src={guava} alt="Market" width="%" height=""/> 
-               <img className='vegetable-category' src={oranges} alt="Market" width="%" height=""/>   
-               <img className='vegetable-category' src={passion} alt="Market" width="%" height=""/>    
+               <img className='vegetable-category' src={guava} alt="Market" width="%" height=""/>
+               <div className="vegetatble-desciption-img">
+            <div className="vegetatble-desciption">
+              <h1>Oranges</h1>
+            </div>
+          </div> 
+               <img className='vegetable-category' src={oranges} alt="Market" width="%" height=""/>
+               <div className="vegetatble-desciption-img">
+            <div className="vegetatble-desciption">
+              <h1>Passion</h1>
+            </div>
+          </div>   
+               <img className='vegetable-category' src={passion} alt="Market" width="%" height=""/>
+               <div className="vegetatble-desciption-img">
+            <div className="vegetatble-desciption">
+              <h1>Pears</h1>
+            </div>
+          </div>    
                <img className='vegetable-category' src={pears} alt="Market" width="%" height=""/> 
    
                    </div>
                    <div className='all-vegetables'>
+                   <div className="vegetatble-desciption-img">
+            <div className="vegetatble-desciption">
+              <h1>Strawberries</h1>
+            </div>
+          </div>
                
-               <img className='vegetable-category' src={strawberry} alt="Market" width="%" height=""/> 
-               <img className='vegetable-category' src={watermelon} alt="Market" width="%" height=""/>    
-               <img className='vegetable-category' src={mangoes} alt="Market" width="%" height=""/>   
+               <img className='vegetable-category' src={strawberry} alt="Market" width="%" height=""/>
+
+               <div className="vegetatble-desciption-img">
+            <div className="vegetatble-desciption">
+              <h1>Watermelon</h1>
+            </div>
+          </div> 
+               <img className='vegetable-category' src={watermelon} alt="Market" width="%" height=""/>
+               <div className="vegetatble-desciption-img">
+            <div className="vegetatble-desciption">
+              <h1>Mangoes</h1>
+            </div>
+          </div>    
+               <img className='vegetable-category' src={mangoes} alt="Market" width="%" height=""/>
+               <div className="vegetatble-desciption-img">
+            <div className="vegetatble-desciption">
+              <h1>Pineapples</h1>
+            </div>
+          </div>   
                <img className='vegetable-category' src={pineapple} alt="Market" width="%" height=""/> 
    
                    </div>
                    <div className='all-vegetables'>
+                   <div className="vegetatble-desciption-img">
+            <div className="vegetatble-desciption">
+              <h1>Dates</h1>
+            </div>
+          </div>
                
-               <img className='vegetable-category' src={dates} alt="Market" width="%" height=""/> 
-               <img className='vegetable-category' src={plums} alt="Market" width="%" height=""/>   
-               <img className='vegetable-category' src={cherry} alt="Market" width="%" height=""/>    
-               <img className='vegetable-category' src={grapes} alt="Market" width="%" height=""/> 
+               <img className='vegetable-category' src={dates} alt="Market" width="%" height=""/>
+               <div className="vegetatble-desciption-img">
+            <div className="vegetatble-desciption">
+              <h1>Plums</h1>
+            </div>
+          </div> 
+               <img className='vegetable-category' src={plums} alt="Market" width="%" height=""/>
+               <div className="vegetatble-desciption-img">
+            <div className="vegetatble-desciption">
+              <h1>Cherries</h1>
+            </div>
+          </div>   
+               <img className='vegetable-category' src={cherry} alt="Market" width="%" height=""/>
+               <div className="vegetatble-desciption-img">
+            <div className="vegetatble-desciption">
+              <h1>Grapes</h1>
+            </div>
+          </div>    
+               <img className='vegetable-category' src={grapes} alt="Market" width="%" height=""/>
+              
    
                    </div>
               </div>
