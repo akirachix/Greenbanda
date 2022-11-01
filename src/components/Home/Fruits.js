@@ -21,11 +21,6 @@ import cherry from "../image/cherry.webp";
 import grapes from "../image/grapes.jpg";
 
 
-
-
-
-
-
 function Fruits() {
     return(
        
