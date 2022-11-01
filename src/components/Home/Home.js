@@ -1,5 +1,5 @@
 import './Home.css';
-
+import { Link, } from "react-router-dom";
 import Navbar from "../Home/Navbar";
 import Card from "../Home/cards";
 import Footer from './Footer';
@@ -15,7 +15,10 @@ function Home() {
         <div className='body'>
             <div className='Opacity'></div>
             <div className='Opacity-white'></div>
+            <Link to="/vegetables">
+            
             <button className='home-btn'>Order Now</button>
+            </Link>
             <div className='home-content'>
                 <p>Fresh Vegetables and Fruits  
 from your trusted Suppliers</p>

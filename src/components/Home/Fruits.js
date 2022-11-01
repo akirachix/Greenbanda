@@ -3,7 +3,7 @@ import Categories from './categories_image';
 import Footer from './Footer';
 import market from "../image/market.jpg";
 import Navbar from "../Home/Navbar";
-
+import { Link, } from "react-router-dom";
 
 
 function Fruits() {
@@ -18,28 +18,86 @@ function Fruits() {
             <div className='categories'>
                     <h4>Recommended Products</h4>
                 <div className='all-vegetables'>
+                <Link className='all-vegetables-link' to="/login">
+            <img className='vegetable-category' src={market} alt="Market" width="100%" height="564vh"/> 
+                    
+                    </Link>   <Link className='all-vegetables-link' to="/login">
+            <img className='vegetable-category' src={market} alt="Market" width="100%" height="564vh"/> 
+                    
+                    </Link> 
+                    <Link className='all-vegetables-link' to="/login">
+            <img className='vegetable-category' src={market} alt="Market" width="100%" height="564vh"/> 
+                    
+                    </Link> 
+                    <Link className='all-vegetables-link' to="/login">
+            <img className='vegetable-category' src={market} alt="Market" width="100%" height="564vh"/> 
+                    
+                    </Link> 
                
-            <img className='vegetable-category' src={market} alt="Market" width="%" height=""/> 
-            <img className='vegetable-category' src={market} alt="Market" width="%" height=""/>    <img className='vegetable-category' src={market} alt="Market" width="%" height=""/>    <img className='vegetable-category' src={market} alt="Market" width="%" height=""/> 
+               
 
                 </div>
                 <h4>More Products</h4>
                 <div className='all-vegetables'>
+                <Link className='all-vegetables-link' to="/login">
+            <img className='vegetable-category' src={market} alt="Market" width="100%" height="564vh"/> 
+                    
+                    </Link> 
+                    <Link className='all-vegetables-link' to="/login">
+            <img className='vegetable-category' src={market} alt="Market" width="100%" height="564vh"/> 
+                    
+                    </Link> 
+                    <Link className='all-vegetables-link' to="/login">
+            <img className='vegetable-category' src={market} alt="Market" width="100%" height="564vh"/> 
+                    
+                    </Link> 
+                    <Link className='all-vegetables-link' to="/login">
+            <img className='vegetable-category' src={market} alt="Market" width="100%" height="564vh"/> 
+                    
+                    </Link> 
                
-               <img className='vegetable-category' src={market} alt="Market" width="%" height=""/> 
-               <img className='vegetable-category' src={market} alt="Market" width="%" height=""/>    <img className='vegetable-category' src={market} alt="Market" width="%" height=""/>    <img className='vegetable-category' src={market} alt="Market" width="%" height=""/> 
+                
+   
+                   </div>
+                   <div className='all-vegetables'>
+                   <Link className='all-vegetables-link' to="/login">
+            <img className='vegetable-category' src={market} alt="Market" width="100%" height="564vh"/> 
+                    
+                    </Link> 
+                    <Link className='all-vegetables-link' to="/login">
+            <img className='vegetable-category' src={market} alt="Market" width="100%" height="564vh"/> 
+                    
+                    </Link> 
+                    <Link className='all-vegetables-link' to="/login">
+            <img className='vegetable-category' src={market} alt="Market" width="100%" height="564vh"/> 
+                    
+                    </Link> 
+                    <Link className='all-vegetables-link' to="/login">
+            <img className='vegetable-category' src={market} alt="Market" width="100%" height="564vh"/> 
+                    
+                    </Link> 
+               
+               
    
                    </div>
                    <div className='all-vegetables'>
                
-               <img className='vegetable-category' src={market} alt="Market" width="%" height=""/> 
-               <img className='vegetable-category' src={market} alt="Market" width="%" height=""/>    <img className='vegetable-category' src={market} alt="Market" width="%" height=""/>    <img className='vegetable-category' src={market} alt="Market" width="%" height=""/> 
-   
-                   </div>
-                   <div className='all-vegetables'>
-               
-               <img className='vegetable-category' src={market} alt="Market" width="%" height=""/> 
-               <img className='vegetable-category' src={market} alt="Market" width="%" height=""/>    <img className='vegetable-category' src={market} alt="Market" width="%" height=""/>    <img className='vegetable-category' src={market} alt="Market" width="%" height=""/> 
+                   <Link className='all-vegetables-link' to="/login">
+            <img className='vegetable-category' src={market} alt="Market" width="100%" height="564vh"/> 
+                    
+                    </Link> 
+                    <Link className='all-vegetables-link' to="/login">
+            <img className='vegetable-category' src={market} alt="Market" width="100%" height="564vh"/> 
+                    
+                    </Link> 
+                    <Link className='all-vegetables-link' to="/login">
+            <img className='vegetable-category' src={market} alt="Market" width="100%" height="564vh"/> 
+                    
+                    </Link> 
+                    <Link className='all-vegetables-link' to="/login">
+            <img className='vegetable-category' src={market} alt="Market" width="100%" height="564vh"/> 
+                    
+                    </Link> 
    
                    </div>
               </div>

@@ -4,6 +4,7 @@ import React from 'react';
 import { useState,useEffect } from 'react';
 import {FaShoppingCart} from "react-icons/fa";
 import axios  from 'axios';
+import Footer from './Home/Footer';
 
 
 
@@ -124,7 +125,7 @@ const postdata = () =>{
          
         <div>
 
-        <form className='form'  onSubmit={handleSubmit} >
+        <form className='register-form'  onSubmit={handleSubmit} >
             <h1 >Sign Up</h1>
             <div className='form'>
 
@@ -222,6 +223,7 @@ const postdata = () =>{
       </div>
     </div>
     </section>
+    <Footer/>
     </div>
  
   
