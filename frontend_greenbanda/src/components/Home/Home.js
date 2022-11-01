@@ -1,6 +1,9 @@
 import './Home.css';
-import { Link } from 'react-router-dom';
-import {FaShoppingCart} from "react-icons/fa"
+
+import Navbar from "../Home/Navbar";
+import Card from "../Home/cards";
+import Footer from './Footer';
+import market from "../image/market.jpg"
 
 
 
@@ -10,39 +13,21 @@ function Home() {
 
 
         <div className='body'>
-            <div className='nav'>
-                <div className='logo'>
-                <h1>GB</h1>
-                <h6 className='brand'>GreenBanda</h6>
+            <div className='Opacity'></div>
+            <div className='Opacity-white'></div>
+            <button className='home-btn'>Order Now</button>
+            <div className='home-content'>
+                <p>Fresh Vegetables and Fruits  
+from your trusted Suppliers</p>
+                </div> 
+            <Navbar/>
+            
 
-                </div>
-                <div className='navigation' >
-              
-          
+            <img src={market} alt="Market" width="100%" height="700vh"/> 
+           
+            <Card/> 
 
-                <div>
-                    <Link className='nav-link' to="/">Home</Link>
-                </div>
-                <div >
-                    <Link className='nav-link' to="/vegetables">Vegetables</Link>
-                </div>
-                <div >
-                    <Link className='nav-link' to="/fruits">Fruits</Link>
-                </div>
-                
-                <div>
-                    
-                    <Link className='nav-link' to="/login">LogIn</Link>
-                </div>
-
-                <div>
-                    
-                    <Link className='nav-link' to="/login">            <FaShoppingCart/>
-</Link>
-                </div>
-                </div>
-               
-            </div>
+            <Footer/> 
        
 
         </div>
