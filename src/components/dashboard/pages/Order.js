@@ -97,21 +97,21 @@ const Order = ({ children }) => {
             </tr>     <tr>
               <td>2022</td>
               <td>Jane Tolentino</td>
-              <td>0745457444</td>
+              <td>0113544193</td>
               <td>Ksh 345</td>
               <td>Delivered</td>
               <td>26.10.2022</td>              
             </tr>     <tr>
               <td>2022</td>
               <td>Jane Tolentino</td>
-              <td>0745457444</td>
+              <td>0790500842</td>
               <td>Ksh 345</td>
               <td>Delivered</td>
               <td>26.10.2022</td>              
             </tr>     <tr>
               <td>2022</td>
               <td>Jane Tolentino</td>
-              <td>0745457444</td>
+              <td>0729837078</td>
               <td>Ksh 345</td>
               <td>Delivered</td>
               <td>26.10.2022</td>              
