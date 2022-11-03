@@ -35,6 +35,13 @@ const Navbar = ({ children }) => {
                     <Link className='nav-link' to="/login">            <FaShoppingCart/>
 </Link>
                 </div>
+
+                <div className="all-humbager">
+                    <div className="humbager"></div>
+                    <div className="humbager"></div>
+                    <div className="humbager"></div>
+
+                </div>
                 </div>
                
             </div>

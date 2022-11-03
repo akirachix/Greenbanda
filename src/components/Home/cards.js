@@ -1,5 +1,9 @@
 import React from "react";
 // import Makeorder from "../image/Makeoder.png";
+import makeoder from "../image/Makeorder.png";
+import makepayments from "../image/Payorder.png";
+import fastdelivery from "../image/fastdev-original.png";
+
 
 
 const Card = ({ children }) => {
@@ -7,8 +11,10 @@ const Card = ({ children }) => {
      <div className="onboardings">
         { children }
         <div className="onboarding">
+        <div className="onboarding-img">
 
-        {/* <img  className="icon"  src={Makeorder} height="100" width='100' alt="make order"/>   */}
+        <img src={makeoder} alt="Market" width="" height=""/> 
+</div>
          
          <div className="texthead">
          <h1>Make An Order</h1>
@@ -22,9 +28,12 @@ const Card = ({ children }) => {
 
 
         <div className="onboarding">
+        <div className="onboarding-img">
 
-          {/* <img  className="icon"  src={Makeorder} height="100" width='100' alt="make order"/>   */}
-         
+        <img src={makepayments} alt="Market" width="90%" height="225vh"/> 
+</div>
+
+
           <div className="texthead">
          <h1>Make payments</h1>
          </div>
@@ -36,6 +45,10 @@ const Card = ({ children }) => {
         </div>
 
         <div className="onboarding">
+          <div className="onboarding-img">
+          <img src={fastdelivery} alt="Market" width="100%" height="225vh"/> 
+
+          </div>
          
           <div className="texthead">
          <h1>Get Fast Delivery</h1>
