@@ -155,7 +155,7 @@ menuitem{
     /* background-color: #424d45; */
 }
 .sect-main{
-    height: 674vh;
+    height: 00vh;
 }
 .children{
     display: flex;
@@ -249,7 +249,8 @@ menuitem{
     padding: 23px;
     width: 90%;
     box-shadow: 2px 3px 3px 2px;
-    height: 950vh;
+    height: 110vh;
+
 }
 
 .table{
@@ -318,7 +319,7 @@ product style
 .back-color-products{
     margin-left: 5%;
     width: 90%;
-    height: 230vh;
+    height: 187vh;
     background-color: #9CC85A;
 }
 .category-search{
@@ -361,7 +362,7 @@ product style
     margin-left: 2%;
     padding: 23px;
     width: 90%;
-    box-shadow: 2px 3px 3px 2px;
-    height: 160vh;
+    /* box-shadow: 2px 3px 3px 2px; */
+    height: 150vh;
 }
 
