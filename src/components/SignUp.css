@@ -6,13 +6,13 @@
     background-image: url(./image/market.jpg);
     background-position: center;
     background-size: cover;
-    height: 70vh;
+    height: 90vh;
   
     
    
 }
 .sub-main{
-    margin-top: -5%;
+    /* margin-top: %; */
     display: flex;
     padding-left: 70px;
     height: 93vh;
@@ -23,13 +23,13 @@
 
     
 }
-form{
-    margin-top: 22px;
+.register-form{
+    margin-top: 24%;
     margin-bottom: -59px;
 }
 
 .sub-main2{
-    margin-top: -5%;
+    /* margin-top: -5%; */
     display: flex;
     justify-content: center;
     height: 93vh;

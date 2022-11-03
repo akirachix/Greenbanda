@@ -3,6 +3,7 @@ import './LogIn.css';
 import {Link } from "react-router-dom";
 // import { useState,useEffect } from 'react';
 import {FaShoppingCart} from "react-icons/fa";
+import Footer from './Home/Footer';
 
 
 
@@ -70,7 +71,7 @@ function LogIn() {
                     </div>
                     
 
-                    <Link exact to="/dashboard">
+                    <Link exact to="/delivery">
         <button className='btn-signup' type='button'>Log In</button>
  </Link>
  <div className='account2'>
@@ -89,6 +90,7 @@ function LogIn() {
                 <h1 className='heading'>Continue Ordering</h1>
             </div>
         </div>
+        <Footer/>
         </div>
  
   

@@ -21,6 +21,7 @@ import collardgreens from "../image/collardgreens.jpg";
 import pumpkins from "../image/pumpkins.jpg";
 
 
+import { Link, } from "react-router-dom";
 
 
 function Vegetables() {
@@ -36,37 +37,88 @@ function Vegetables() {
                     <h4>Recommended Products</h4>
                 <div className='all-vegetables'>
 
-            <img className='vegetable-category' src={capsicum} alt="Market" width="%" height=""/> 
-            <img className='vegetable-category' src={cabbages} alt="Market" width="%" height=""/>  
-            <img className='vegetable-category' src={carrots} alt="Market" width="%" height=""/>    
-            <img className='vegetable-category' src={cucumber} alt="Market" width="%" height=""/> 
                
+                    <Link className='all-vegetables-link' to="/login">
+                    <img className='vegetable-category' src={capsicum} alt="Market" width="100%" height="564vh"/> 
+                    
+                    </Link>  
+                    <Link className='all-vegetables-link' to="/login">
+                    <img className='vegetable-category' src={cabbages} alt="Market" width="100%" height="564vh"/>  
+                    
+                    </Link>
+                    <Link className='all-vegetables-link' to="/login">
+                    <img className='vegetable-category' src={carrots} alt="Market" width="100%" height="564vh"/>    
+                    
+                    </Link>
+                    <Link className='all-vegetables-link' to="/login">
+                    <img className='vegetable-category' src={cucumber} alt="Market" width="100%" height="564vh"/> 
+                    
+                    </Link>             
             
 
                 </div>
                 <h4>More Products</h4>
                 <div className='all-vegetables'>
+                <Link className='all-vegetables-link' to="/login">
+                <img className='vegetable-category' src={eggplant} alt="Market" width="100%" height="564vh"/> 
+                    
+                    </Link> 
+                    <Link className='all-vegetables-link' to="/login">
+                    <img className='vegetable-category' src={garlic} alt="Market" width="100%" height="564vh"/>    
+                    
+                    </Link> 
+                    <Link className='all-vegetables-link' to="/login">
+                    <img className='vegetable-category' src={irish} alt="Market" width="100%" height="564vh"/>    
+                    
+                    </Link> 
+                    <Link className='all-vegetables-link' to="/login">
+                    <img className='vegetable-category' src={Kunde} alt="Market" width="100%" height="564vh"/> 
+                    
+                    </Link> 
                
-               <img className='vegetable-category' src={eggplant} alt="Market" width="%" height=""/> 
-               <img className='vegetable-category' src={garlic} alt="Market" width="%" height=""/>    
-               <img className='vegetable-category' src={irish} alt="Market" width="%" height=""/>    
-               <img className='vegetable-category' src={Kunde} alt="Market" width="%" height=""/> 
+             
    
                    </div>
                    <div className='all-vegetables'>
+                   <Link className='all-vegetables-link' to="/login">
+                   <img className='vegetable-category' src={onions} alt="Market" width="100%" height="564vh"/> 
+                    
+                    </Link> 
+                    <Link className='all-vegetables-link' to="/login">
+                    <img className='vegetable-category' src={spinach} alt="Market" width="100%" height="564vh"/>    
+                    
+                    </Link> 
+                    <Link className='all-vegetables-link' to="/login">
+                    <img className='vegetable-category' src={tomatoes} alt="Market" width="100%" height="564vh"/>    
+                    
+                    </Link> 
+                    <Link className='all-vegetables-link' to="/login">
+                    <img className='vegetable-category' src={SweetPotatoes} alt="Market" width="100%" height="564vh"/> 
+                    
+                    </Link> 
                
-               <img className='vegetable-category' src={onions} alt="Market" width="%" height=""/> 
-               <img className='vegetable-category' src={spinach} alt="Market" width="%" height=""/>    
-               <img className='vegetable-category' src={tomatoes} alt="Market" width="%" height=""/>    
-               <img className='vegetable-category' src={SweetPotatoes} alt="Market" width="%" height=""/> 
+               
    
                    </div>
                    <div className='all-vegetables'>
+                   <Link className='all-vegetables-link' to="/login">
+                   <img className='vegetable-category' src={brocoli} alt="Market" width="100%" height="564vh"/> 
+                    
+                    </Link> 
+                    <Link className='all-vegetables-link' to="/login">
+                    <img className='vegetable-category' src={turnips} alt="Market" width="100%" height="564vh"/>    
+                    
+                    </Link> 
+                    <Link className='all-vegetables-link' to="/login">
+                    <img className='vegetable-category' src={pumpkins} alt="Market" width="100%" height="564vh"/>    
+                    
+                    </Link> 
+                    <Link className='all-vegetables-link' to="/login">
+                    <img className='vegetable-category' src={collardgreens} alt="Market" width="100%" height="564vh"/> 
+                    
+                    </Link> 
                
-               <img className='vegetable-category' src={brocoli} alt="Market" width="%" height=""/> 
-               <img className='vegetable-category' src={turnips} alt="Market" width="%" height=""/>    
-               <img className='vegetable-category' src={pumpkins} alt="Market" width="%" height=""/>    
-               <img className='vegetable-category' src={collardgreens} alt="Market" width="%" height=""/> 
+               
    
                    </div>
               </div>

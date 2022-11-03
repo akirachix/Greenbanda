@@ -12,12 +12,18 @@ import Customer from "./components/dashboard/pages/Customer";
 import Transaction from "./components/dashboard/pages/Transaction";
 import Order from "./components/dashboard/pages/Order";
 import Product from "./components/dashboard/pages/Product";
+import Delivery from "./components/Delivery/delivery";
+import Payment from "./components/Payment/payment";
+import ContinuedPayment from "./components/Payment/continued-payment";
+import OrderReview from "./components/OrderReview/orderreview";
+
 
 
 const App=()=>{
 
     return (
       <div>
+        
              
         <BrowserRouter>
        
@@ -40,6 +46,19 @@ const App=()=>{
             <Route path ="/fruits">
               <Fruits />
             </Route>
+            <Route path ="/delivery">
+              <Delivery/>
+            </Route>
+            <Route path ="/payment">
+              <Payment/>
+            </Route> 
+            <Route path ="/continuedpayment">
+              <ContinuedPayment/>
+            </Route>
+            <Route path ="/orderreview">
+              <OrderReview/>
+            </Route>
+            
 
             <Route path ="/dashboard">
               <Dashboard/>
