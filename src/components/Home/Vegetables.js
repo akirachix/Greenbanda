@@ -1,7 +1,7 @@
-import './Home.css';
-import Footer from './Footer';
-import Categories from './categories_image';
-import market from "../image/market.jpg";
+import "./Home.css";
+import Footer from "./Footer";
+import Categories from "./categories_image";
+import { Link, } from "react-router-dom";
 import Navbar from "../Home/Navbar";
 import capsicum from "../image/capsicum.jpg";
 import carrots from "../image/carrots-1.jpg";
@@ -20,8 +20,6 @@ import turnips from "../image/turnips.jpg";
 import collardgreens from "../image/collardgreens.jpg";
 import pumpkins from "../image/pumpkins.jpg";
 
-
-import { Link, } from "react-router-dom";
 
 
 function Vegetables() {

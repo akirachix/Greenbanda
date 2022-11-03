@@ -1,7 +1,7 @@
 import './Home.css';
 import Categories from './categories_image';
 import Footer from './Footer';
-import market from "../image/market.jpg";
+import { Link, } from "react-router-dom";
 import Navbar from "../Home/Navbar";
 import apples from "../image/apples.jpg";
 import avocado from "../image/avocado.jpg";
@@ -24,7 +24,6 @@ import grapes from "../image/grapes.jpg";
 
 
 
-import { Link, } from "react-router-dom";
 
 
 function Fruits() {
@@ -39,6 +38,13 @@ function Fruits() {
             <div className='categories'>
                     <h4>Recommended Products</h4>
                 <div className='all-vegetables'>
+                <div className="vegetatble-desciption-img">
+            <div className="vegetatble-desciption">
+              <h1>Apples</h1>
+            </div>
+          </div>
+
+            <img className='vegetable-category' src={apples} alt="Market" width="%" height=""/>
 
            
                 <Link className='all-vegetables-link' to="/login">
@@ -104,6 +110,11 @@ function Fruits() {
    
                    </div>
                    <div className='all-vegetables'>
+                   <div className="vegetatble-desciption-img">
+            <div className="vegetatble-desciption">
+              <h1>Dates</h1>
+            </div>
+          </div>
                
                    <Link className='all-vegetables-link' to="/login">
                    <img className='vegetable-category' src={dates} alt="Market" width="100%" height="564vh"/> 
