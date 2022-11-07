@@ -181,7 +181,8 @@ Footer
 }
 .copy{
     /* background-color: #000; */
-    padding-top: 2%;    margin-left: 40%;
+    padding-top: 2%;   
+    margin-left: 40%;
     color: #2FC85A;
 }
 
@@ -246,6 +247,80 @@ categories
     margin: 1%;
 }
 
+
+/* .................
+counter
+..................... */
+
+.counter {
+    width: 100%;
+    display: flex;
+    margin-top: -2%;
+    margin-left: 12%;
+    align-items: center;
+    text-align: center;
+    row-gap: 20px;
+   
+}
+.counter_name span{
+    margin-left: 7%;
+   
+}
+.counter_wrapper h1{
+margin-left: 13%;   
+}
+ 
+.counter h1 {
+    color: #000;
+    font-size: 10px;
+}
+ 
+.counter__output {
+    /* margin-top: -22%; */
+    font-size: 17px;
+    color: #000;
+}
+ 
+.btn__container {
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 10px;
+}
+ 
+.control__btn {
+    font-size: 10px;
+    /* padding: 1px 12px; */
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #058d05;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+ 
+.control__btn:hover {
+    background-color: #058d05;
+    color: rgb(255, 255, 255);
+    border: 1px solid #058d05;
+}
+ 
+.reset {
+    /* width: 100px; */
+    font-size: 12px;
+
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #058d05;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+ 
+.reset:hover {
+    background-color: #058d05;
+    color: rgb(255, 255, 255);
+    border: 1px solid #058d05;
+}
 
 
 
