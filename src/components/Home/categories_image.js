@@ -4,12 +4,13 @@ import market from "../image/market.jpg";
 
 
 
-function Categories() {
+function Categories({ children }) {
     return(
        
 
 
         <div className='body'>
+          { children }
          
             
           

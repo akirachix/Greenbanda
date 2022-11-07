@@ -8,11 +8,12 @@ import { Link } from 'react-router-dom';
 
 
 
-function Payment() {
+function Payment({ children }) {
     return(
        <div>
         <Navbar/>
         <div className='payment-details'>
+        { children }
             <div className='payment-box'>
                 <form>
                     <div className='payment-header'>Payment</div>

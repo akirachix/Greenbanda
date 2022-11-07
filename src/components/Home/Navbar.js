@@ -45,6 +45,7 @@ const Navbar = ({ children }) => {
                 </div>
                
             </div>
+            { children }
     </div>
   );
 };

@@ -7,7 +7,7 @@ import Footer from './Home/Footer';
 
 
 
-function LogIn() {
+function LogIn({ children }) {
     // const  [PhoneNumber, setphoneNumber]= useState('');
     // const  [password, setPassword]= useState('');
 
@@ -55,6 +55,7 @@ function LogIn() {
         
         
         <div className='original'>
+        { children }
             <div className='sub-original'>
                 <form>
                     <h1>LogIn</h1>

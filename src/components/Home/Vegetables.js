@@ -22,7 +22,7 @@ import pumpkins from "../image/pumpkins.jpg";
 
 
 
-function Vegetables() {
+function Vegetables({ children }) {
     return(
        
 
@@ -35,6 +35,7 @@ function Vegetables() {
 
             <Navbar/> 
               <Categories/>
+              { children }
               <div className='categories'>
                     <h4>Recommended Products</h4>
                   

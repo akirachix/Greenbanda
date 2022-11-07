@@ -8,10 +8,11 @@ import { Link } from 'react-router-dom';
 
 
 
-function Delivery() {
+function Delivery({ children }) {
     return(
        <div>
         <Navbar/>
+        { children }
         <div className='delivery-details'>
             <div className='delivery-box'>
                 <form>

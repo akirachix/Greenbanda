@@ -22,7 +22,7 @@ import cherry from "../image/cherry.webp";
 import grapes from "../image/grapes.jpg";
 
 
-function Fruits() {
+function Fruits({ children }) {
 
   const [counter, setCounter] = useState(0);
   const [number, setNumber] = useState(0);
@@ -62,6 +62,7 @@ function Fruits() {
               </div>
             <Navbar/> 
             <Categories/>
+            { children }
             <div className='categories'>
                     <h4>Recommended Products</h4>
                 <div className='all-vegetables'>

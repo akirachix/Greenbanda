@@ -7,12 +7,13 @@ import market from "../image/market.jpg"
 
 
 
-function Home() {
+function Home({ children }) {
     return(
        
 
 
         <div className='body'>
+            { children }
             <div className='Opacity'></div>
             <div className='Opacity-white'></div>
             <Link to="/vegetables">

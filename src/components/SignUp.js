@@ -10,7 +10,7 @@ import Footer from './Home/Footer';
 
   
 
-function SignUp() { 
+function SignUp({ children }) { 
   // const[data,setData] = useState()
   
 
@@ -115,6 +115,7 @@ const postdata = () =>{
         </div>
    
       <section>
+      { children }
         <p className ={errorMessage? "errormessage": "offscreen" }
          aria-live="assertive">
           {errorMessage}

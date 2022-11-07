@@ -10,11 +10,12 @@ import '../OrderReview/orderreview.css';
 
 
 
-function OrderReview() {
+function OrderReview({ children }) {
     return(
        <div>
         <Navbar/>
         <div className='order-review-details'>
+        { children }
             <div className='order-review-box'>
                 <div className="whole-page">
                 <div className="order-review-header">
