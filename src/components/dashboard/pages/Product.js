@@ -38,7 +38,7 @@ const Product = ({ children }) => {
             <Sidebar />
           </div>
 
-            <div className="sect-main">
+            <div className="">
             {children}
             <div className="dash-head">
 
@@ -62,20 +62,20 @@ const Product = ({ children }) => {
               <div className="all-products">
                 <div className="row">
                   <div className="wrap">
-                    <img src={onion} alt="Market"  width="100%" height="177.5vh"/>
+                    <img src={onion} alt="Market"  width="100%" height="177vh"/>
                 
 
                   </div>
                   <div className="wrap">
-                  <img src={apple} alt="Market"  width="100%" height="177.5vh"/>
+                  <img src={apple} alt="Market"  width="100%" height="177vh"/>
 
 </div>
 <div className="wrap">
-<img src={banana} alt="Market"  width="100%" height="177.5vh"/>
+<img src={banana} alt="Market"  width="100%" height="177vh"/>
 
 </div>
 <div className="wrap">
-<img src={brocoli} alt="Market"  width="100%" height="177.5vh"/>
+<img src={brocoli} alt="Market"  width="100%" height="177vh"/>
 
 </div>
                   
@@ -83,19 +83,19 @@ const Product = ({ children }) => {
                 </div>
                 <div className="row">
                   <div className="wrap">
-                  <img src={avocado} alt="Market"  width="100%" height="177.5vh"/>
+                  <img src={avocado} alt="Market"  width="100%" height="177vh"/>
 
                   </div>
                   <div className="wrap">
-                  <img src={spinach} alt="Market"  width="100%" height="177.5vh"/>
+                  <img src={spinach} alt="Market"  width="100%" height="177vh"/>
 
 </div>
 <div className="wrap">
-<img src={tomatoes} alt="Market"  width="100%" height="177.5vh"/>
+<img src={tomatoes} alt="Market"  width="100%" height="177vh"/>
 
 </div>
 <div className="wrap">
-<img src={watermelon} alt="Market"  width="100%" height="177.5vh"/>
+<img src={watermelon} alt="Market"  width="100%" height="177vh"/>
 
 </div>
                   
@@ -103,19 +103,19 @@ const Product = ({ children }) => {
                 </div>
                 <div className="row">
                   <div className="wrap">
-                  <img src={plums} alt="Market"  width="100%" height="177.5vh"/>
+                  <img src={plums} alt="Market"  width="100%" height="177vh"/>
 
                   </div>
                   <div className="wrap">
-                  <img src={turnips} alt="Market"  width="100%" height="177.5vh"/>
+                  <img src={turnips} alt="Market"  width="100%" height="177vh"/>
 
 </div>
 <div className="wrap">
-<img src={dates} alt="Market"  width="100%" height="177.5vh"/>
+<img src={dates} alt="Market"  width="100%" height="177vh"/>
 
 </div>
 <div className="wrap">
-<img src={strawberry} alt="Market"  width="100%" height="177.5vh"/>
+<img src={strawberry} alt="Market"  width="100%" height="177vh"/>
 
 </div>
 
@@ -124,19 +124,19 @@ const Product = ({ children }) => {
                 </div>
                 <div className="row">
                   <div className="wrap">
-                  <img src={SweetPotatoes} alt="Market"  width="100%" height="177.5vh"/>
+                  <img src={SweetPotatoes} alt="Market"  width="100%" height="177vh"/>
 
                   </div>
                   <div className="wrap">
-                  <img src={oranges} alt="Market"  width="100%" height="177.5vh"/>
+                  <img src={oranges} alt="Market"  width="100%" height="177vh"/>
 
 </div>
 <div className="wrap">
-<img src={passion} alt="Market"  width="100%" height="177.5vh"/>
+<img src={passion} alt="Market"  width="100%" height="177vh"/>
 
 </div>
 <div className="wrap">
-<img src={pineapple} alt="Market"  width="100%" height="177.5vh"/>
+<img src={pineapple} alt="Market"  width="100%" height="177vh"/>
 
 </div>
                   
@@ -144,19 +144,19 @@ const Product = ({ children }) => {
                 </div>
                 <div className="row">
                   <div className="wrap">
-                  <img src={pears} alt="Market"  width="100%" height="177.5vh"/>
+                  <img src={pears} alt="Market"  width="100%" height="177vh"/>
 
                   </div>
                   <div className="wrap">
-                  <img src={mangoes} alt="Market"  width="100%" height="177.5vh"/>
+                  <img src={mangoes} alt="Market"  width="100%" height="177vh"/>
 
 </div>
 <div className="wrap">
-<img src={grapes} alt="Market"  width="100%" height="177.5vh"/>
+<img src={grapes} alt="Market"  width="100%" height="177vh"/>
 
 </div>
 <div className="wrap">
-<img src={capsicum} alt="Market"  width="100%" height="177.5vh"/>
+<img src={capsicum} alt="Market"  width="100%" height="177vh"/>
 
 </div>
                   
@@ -167,7 +167,7 @@ const Product = ({ children }) => {
 
             </div>
 
-            
+          
              
           
            

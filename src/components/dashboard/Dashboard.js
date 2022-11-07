@@ -4,6 +4,7 @@ import { FaShoppingCart, FaDollarSign,
  
 import Navigate from "../dashboard/Navigate";
 import Sidebar from "../dashboard/Sidebar";
+
 const Dashboard = ({ children }) => {
   return (
     <div>

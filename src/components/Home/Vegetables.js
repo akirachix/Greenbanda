@@ -38,6 +38,8 @@ function Vegetables() {
                 <div className="vegetatble-desciption-img">
             <div className="vegetatble-desciption">
               <h1>Capsicum</h1>
+              <h4>Price sh.175</h4>
+
             </div>
           </div>
           
@@ -50,6 +52,8 @@ function Vegetables() {
                     <div className="vegetatble-desciption-img">
             <div className="vegetatble-desciption">
               <h1>Cabbages</h1>
+              <h4>Price sh.175</h4>
+
             </div>
           </div>  
                     <Link className='all-vegetables-link' to="/login">
@@ -61,6 +65,8 @@ function Vegetables() {
                     <div className="vegetatble-desciption-img">
             <div className="vegetatble-desciption">
               <h1>Carrots</h1>
+              <h4>Price sh.175</h4>
+
             </div>
             </div>
                     <Link className='all-vegetables-link' to="/login">
@@ -70,6 +76,9 @@ function Vegetables() {
                     <div className="vegetatble-desciption-img">
             <div className="vegetatble-desciption">
               <h1>Cucumber</h1>
+              <h4>Price sh.175</h4>
+
+              <p></p>
             </div>
           </div>
                     <Link className='all-vegetables-link' to="/login">
@@ -85,6 +94,8 @@ function Vegetables() {
                 <div className="vegetatble-desciption-img">
             <div className="vegetatble-desciption">
               <h1>Eggplant</h1>
+              <h4>Price sh.175</h4>
+
             </div>
           </div>
                 <Link className='all-vegetables-link' to="/login">
@@ -94,6 +105,8 @@ function Vegetables() {
                     <div className="vegetatble-desciption-img">
             <div className="vegetatble-desciption">
               <h1>Garlic</h1>
+              <h4>Price sh.175</h4>
+
             </div>
           </div>
                     <Link className='all-vegetables-link' to="/login">
@@ -103,6 +116,8 @@ function Vegetables() {
                     <div className="vegetatble-desciption-img">
             <div className="vegetatble-desciption">
               <h1>Irish Potatoes</h1>
+              <h4>Price sh.175</h4>
+
             </div>
           </div> 
                     <Link className='all-vegetables-link' to="/login">
@@ -112,6 +127,8 @@ function Vegetables() {
                     <div className="vegetatble-desciption-img">
             <div className="vegetatble-desciption">
               <h1>Cow pea leaves</h1>
+              <h4>Price sh.175</h4>
+
             </div>
           </div>
                     <Link className='all-vegetables-link' to="/login">
@@ -126,6 +143,8 @@ function Vegetables() {
                    <div className="vegetatble-desciption-img">
             <div className="vegetatble-desciption">
               <h1>Onion</h1>
+              <h4>Price sh.175</h4>
+
             </div>
           </div>
                    <Link className='all-vegetables-link' to="/login">
@@ -135,6 +154,8 @@ function Vegetables() {
                     <div className="vegetatble-desciption-img">
             <div className="vegetatble-desciption">
               <h1>Spinach</h1>
+              <h4>Price sh.175</h4>
+
             </div>
           </div> 
                     <Link className='all-vegetables-link' to="/login">
@@ -144,6 +165,8 @@ function Vegetables() {
                     <div className="vegetatble-desciption-img">
             <div className="vegetatble-desciption">
               <h1>Tomatoes</h1>
+              <h4>Price sh.175</h4>
+
             </div>
           </div> 
                     <Link className='all-vegetables-link' to="/login">
@@ -154,6 +177,8 @@ function Vegetables() {
                     <div className="vegetatble-desciption-img">
             <div className="vegetatble-desciption">
               <h1>SweetPotatoes</h1>
+              <h4>Price sh.175</h4>
+
             </div>
           </div>
                     <Link className='all-vegetables-link' to="/login">
@@ -168,6 +193,8 @@ function Vegetables() {
                    <div className="vegetatble-desciption-img">
             <div className="vegetatble-desciption">
               <h1>Brocoli</h1>
+              <h4>Price sh.175</h4>
+
             </div>
           </div>
                    <Link className='all-vegetables-link' to="/login">
@@ -178,6 +205,8 @@ function Vegetables() {
             <div className="vegetatble-desciption-img">
             <div className="vegetatble-desciption">
               <h1>Turnips</h1>
+              <h4>Price sh.175</h4>
+
             </div>
           </div>
         
@@ -189,6 +218,8 @@ function Vegetables() {
                     <div className="vegetatble-desciption-img">
             <div className="vegetatble-desciption">
               <h1>Pumpkin</h1>
+              <h4>Price sh.175</h4>
+
             </div>
           </div>
                     <Link className='all-vegetables-link' to="/login">
@@ -198,6 +229,8 @@ function Vegetables() {
                     <div className="vegetatble-desciption-img">
             <div className="vegetatble-desciption">
               <h1>Collard Greens</h1>
+              <h4>Price sh.175</h4>
+
             </div>
           </div>
                     <Link className='all-vegetables-link' to="/login">
