@@ -32,7 +32,7 @@ const Navbar = ({ children }) => {
 
                 <div>
                     
-                    <Link className='nav-link' to="/login">            <FaShoppingCart/>
+                    <Link className='nav-link' to="/#">            <FaShoppingCart/>
 </Link>
                 </div>
 
