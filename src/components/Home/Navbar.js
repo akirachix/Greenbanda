@@ -36,12 +36,7 @@ const Navbar = ({ children }) => {
 </Link>
                 </div>
 
-                <div className="all-humbager">
-                    <div className="humbager"></div>
-                    <div className="humbager"></div>
-                    <div className="humbager"></div>
-
-                </div>
+             
                 </div>
                
             </div>

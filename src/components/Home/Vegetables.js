@@ -1,4 +1,5 @@
-import "./Home.css";
+import "./Categories.css";
+import { React, useState } from 'react'
 import Footer from "./Footer";
 import { Link, } from "react-router-dom";
 import Categories from "./categories_image";
@@ -23,6 +24,30 @@ import pumpkins from "../image/pumpkins.jpg";
 
 
 function Vegetables({ children }) {
+  const [counter, setCounter] = useState(0);
+ 
+
+ 
+  //increase counter
+  const increase = () => {
+    setCounter(count => count + 1);
+  
+   
+  };
+ 
+  //decrease counter
+  const decrease = () => {
+       if (counter > 0) {
+      setCounter(count => count - 1);
+    
+    }
+  };
+ 
+  //reset counter 
+  const reset = () =>{
+    setCounter(0)
+ 
+  }
     return(
        
 
@@ -71,9 +96,28 @@ function Vegetables({ children }) {
                
                 </div>
                 <div className="vegetatble-desciption-img">
-            <div className="vegetatble-desciption">
-              <h1>Capsicum</h1>
+                <div className="vegetatble-desciption">
+             <div className='counter-name'> 
+              <h1>Capsicum  <span>234Ksh /=</span></h1>
+
+             </div>
+         
+              <div className="counter">
+             
+    
+      <div className="btn-container">
+     
+      <button className="reset" onClick={reset}>Start</button>
+      <button className="control-btn" onClick={decrease}>-</button>
+        <button className="control-btn" onClick={increase}>+</button>
+        <div className="counter-output">{counter}</div>
+      
+        
+       
+      </div>
+    </div>
             </div>
+           
 
             <div className="vegetatble-desciption">
               <h1>cabbages</h1>

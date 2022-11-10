@@ -1,5 +1,6 @@
-import './Home.css';
+
 import market from "../image/market.jpg";
+import './categories_image.css';
 
 
 

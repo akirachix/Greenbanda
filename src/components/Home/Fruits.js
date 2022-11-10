@@ -1,4 +1,4 @@
-import './Home.css';
+import "./Categories.css";
 import { React, useState } from 'react'
 import { Link, } from "react-router-dom";
 import Categories from './categories_image';
@@ -96,7 +96,7 @@ function Fruits({ children }) {
 
                 <div className="vegetatble-desciption-img">
             <div className="vegetatble-desciption">
-             <div className='counter_name'> 
+             <div className='counter-name'> 
               <h1>Apples  <span>234Ksh /=</span></h1>
 
              </div>
@@ -104,12 +104,12 @@ function Fruits({ children }) {
               <div className="counter">
              
     
-      <div className="btn__container">
+      <div className="btn-container">
      
       <button className="reset" onClick={reset}>Start</button>
-      <button className="control__btn" onClick={decrease}>-</button>
-        <button className="control__btn" onClick={increase}>+</button>
-        <div className="counter__output">{counter}</div>
+      <button className="control-btn" onClick={decrease}>-</button>
+        <button className="control-btn" onClick={increase}>+</button>
+        <div className="counter-output">{counter}</div>
       
         
        
@@ -118,7 +118,7 @@ function Fruits({ children }) {
             </div>
          
             <div className="vegetatble-desciption">
-             <div className='counter_name'> 
+             <div className='counter-name'> 
               <h1>Avocado  <span>234Ksh /=</span></h1>
 
              </div>
@@ -126,12 +126,12 @@ function Fruits({ children }) {
               <div className="counter">
              
     
-      <div className="btn__container">
+      <div className="btn-container">
      
       <button className="reset" onClick={reset}>Start</button>
-      <button className="control__btn" onClick={decrease}>-</button>
-        <button className="control__btn" onClick={increase}>+</button>
-        <div className="counter__output">{number}</div>
+      <button className="control-btn" onClick={decrease}>-</button>
+        <button className="control-btn" onClick={increase}>+</button>
+        <div className="counter-output">{number}</div>
       
         
        
@@ -139,7 +139,7 @@ function Fruits({ children }) {
     </div>
             </div>
             <div className="vegetatble-desciption">
-             <div className='counter_name'> 
+             <div className='counter-name'> 
               <h1>Banana<span>234Ksh /=</span></h1>
 
              </div>
@@ -147,12 +147,12 @@ function Fruits({ children }) {
               <div className="counter">
              
     
-      <div className="btn__container">
+      <div className="btn-container">
      
       <button className="reset" onClick={reset}>Reset</button>
-      <button className="control__btn" onClick={decrease}>-</button>
-        <button className="control__btn" onClick={increase}>+</button>
-        <div className="counter__output">{counter}</div>
+      <button className="control-btn" onClick={decrease}>-</button>
+        <button className="control-btn" onClick={increase}>+</button>
+        <div className="counter-output">{counter}</div>
       
         
        
@@ -160,7 +160,7 @@ function Fruits({ children }) {
     </div>
             </div>
             <div className="vegetatble-desciption">
-             <div className='counter_name'> 
+             <div className='counter-name'> 
               <h1>Coconut  <span>234Ksh /=</span></h1>
 
              </div>
@@ -168,12 +168,12 @@ function Fruits({ children }) {
               <div className="counter">
              
     
-      <div className="btn__container">
+      <div className="btn-container">
      
       <button className="reset" onClick={reset}>Reset</button>
-      <button className="control__btn" onClick={decrease}>-</button>
-        <button className="control__btn" onClick={increase}>+</button>
-        <div className="counter__output">{counter}</div>
+      <button className="control-btn" onClick={decrease}>-</button>
+        <button className="control-btn" onClick={increase}>+</button>
+        <div className="counter-output">{counter}</div>
       
         
        
@@ -210,7 +210,7 @@ function Fruits({ children }) {
 
                    <div className="vegetatble-desciption-img">
                    <div className="vegetatble-desciption">
-             <div className='counter_name'> 
+             <div className='counter-name'> 
               <h1>Guava  <span>234Ksh /=</span></h1>
 
              </div>
@@ -218,12 +218,12 @@ function Fruits({ children }) {
               <div className="counter">
              
     
-      <div className="btn__container">
+      <div className="btn-container">
      
       <button className="reset" onClick={reset}>Start</button>
-      <button className="control__btn" onClick={decrease}>-</button>
-        <button className="control__btn" onClick={increase}>+</button>
-        <div className="counter__output">{counter}</div>
+      <button className="control-btn" onClick={decrease}>-</button>
+        <button className="control-btn" onClick={increase}>+</button>
+        <div className="counter-output">{counter}</div>
       
         
        
@@ -231,7 +231,7 @@ function Fruits({ children }) {
     </div>
             </div>
             <div className="vegetatble-desciption">
-             <div className='counter_name'> 
+             <div className='counter-name'> 
               <h1>Oranges  <span>234Ksh /=</span></h1>
 
              </div>
@@ -239,12 +239,12 @@ function Fruits({ children }) {
               <div className="counter">
              
     
-      <div className="btn__container">
+      <div className="btn-container">
      
-      <button className="reset" onClick={reset}>Reset</button>
-      <button className="control__btn" onClick={decrease}>-</button>
-        <button className="control__btn" onClick={increase}>+</button>
-        <div className="counter__output">{counter}</div>
+      <button className="reset" onClick={reset}>Start</button>
+      <button className="control-btn" onClick={decrease}>-</button>
+        <button className="control-btn" onClick={increase}>+</button>
+        <div className="counter-output">{counter}</div>
       
         
        
@@ -252,7 +252,7 @@ function Fruits({ children }) {
     </div>
             </div>
             <div className="vegetatble-desciption">
-             <div className='counter_name'> 
+             <div className='counter-name'> 
               <h1>Passion  <span>234Ksh /=</span></h1>
 
              </div>
@@ -260,12 +260,12 @@ function Fruits({ children }) {
               <div className="counter">
              
     
-      <div className="btn__container">
+      <div className="btn-container">
      
-      <button className="reset" onClick={reset}>Reset</button>
-      <button className="control__btn" onClick={decrease}>-</button>
-        <button className="control__btn" onClick={increase}>+</button>
-        <div className="counter__output">{counter}</div>
+      <button className="reset" onClick={reset}>Start</button>
+      <button className="control-btn" onClick={decrease}>-</button>
+        <button className="control-btn" onClick={increase}>+</button>
+        <div className="counter-output">{counter}</div>
       
         
        
@@ -273,7 +273,7 @@ function Fruits({ children }) {
     </div>
             </div>
             <div className="vegetatble-desciption">
-             <div className='counter_name'> 
+             <div className='counter-name'> 
               <h1>Pears  <span>234Ksh /=</span></h1>
 
              </div>
@@ -281,12 +281,12 @@ function Fruits({ children }) {
               <div className="counter">
              
     
-      <div className="btn__container">
+      <div className="btn-container">
      
-      <button className="reset" onClick={reset}>Reset</button>
-      <button className="control__btn" onClick={decrease}>-</button>
-        <button className="control__btn" onClick={increase}>+</button>
-        <div className="counter__output">{counter}</div>
+      <button className="reset" onClick={reset}>Start</button>
+      <button className="control-btn" onClick={decrease}>-</button>
+        <button className="control-btn" onClick={increase}>+</button>
+        <div className="counter-output">{counter}</div>
       
         
        
@@ -320,7 +320,7 @@ function Fruits({ children }) {
                    </div>
                    <div className="vegetatble-desciption-img">
                    <div className="vegetatble-desciption">
-             <div className='counter_name'> 
+             <div className='counter-name'> 
               <h1>Strawberry  <span>234Ksh /=</span></h1>
 
              </div>
@@ -328,12 +328,12 @@ function Fruits({ children }) {
               <div className="counter">
              
     
-      <div className="btn__container">
+      <div className="btn-container">
      
-      <button className="reset" onClick={reset}>Reset</button>
-      <button className="control__btn" onClick={decrease}>-</button>
-        <button className="control__btn" onClick={increase}>+</button>
-        <div className="counter__output">{counter}</div>
+      <button className="reset" onClick={reset}>Start</button>
+      <button className="control-btn" onClick={decrease}>-</button>
+        <button className="control-btn" onClick={increase}>+</button>
+        <div className="counter-output">{counter}</div>
       
         
        
@@ -341,7 +341,7 @@ function Fruits({ children }) {
     </div>
             </div>
             <div className="vegetatble-desciption">
-             <div className='counter_name'> 
+             <div className='counter-name'> 
               <h1>Watermelon  <span>234Ksh /=</span></h1>
 
              </div>
@@ -349,12 +349,12 @@ function Fruits({ children }) {
               <div className="counter">
              
     
-      <div className="btn__container">
+      <div className="btn-container">
      
-      <button className="reset" onClick={reset}>Reset</button>
-      <button className="control__btn" onClick={decrease}>-</button>
-        <button className="control__btn" onClick={increase}>+</button>
-        <div className="counter__output">{counter}</div>
+      <button className="reset" onClick={reset}>Start</button>
+      <button className="control-btn" onClick={decrease}>-</button>
+        <button className="control-btn" onClick={increase}>+</button>
+        <div className="counter-output">{counter}</div>
       
         
        
@@ -362,7 +362,7 @@ function Fruits({ children }) {
     </div>
             </div>
             <div className="vegetatble-desciption">
-             <div className='counter_name'> 
+             <div className='counter-name'> 
               <h1>Mangoes  <span>234Ksh /=</span></h1>
 
              </div>
@@ -370,12 +370,12 @@ function Fruits({ children }) {
               <div className="counter">
              
     
-      <div className="btn__container">
+      <div className="btn-container">
      
-      <button className="reset" onClick={reset}>Reset</button>
-      <button className="control__btn" onClick={decrease}>-</button>
-        <button className="control__btn" onClick={increase}>+</button>
-        <div className="counter__output">{counter}</div>
+      <button className="reset" onClick={reset}>Start</button>
+      <button className="control-btn" onClick={decrease}>-</button>
+        <button className="control-btn" onClick={increase}>+</button>
+        <div className="counter-output">{counter}</div>
       
         
        
@@ -383,7 +383,7 @@ function Fruits({ children }) {
     </div>
             </div>
             <div className="vegetatble-desciption">
-             <div className='counter_name'> 
+             <div className='counter-name'> 
               <h1>Pineapple  <span>234Ksh /=</span></h1>
 
              </div>
@@ -391,12 +391,12 @@ function Fruits({ children }) {
               <div className="counter">
              
     
-      <div className="btn__container">
+      <div className="btn-container">
      
-      <button className="reset" onClick={reset}>Reset</button>
-      <button className="control__btn" onClick={decrease}>-</button>
-        <button className="control__btn" onClick={increase}>+</button>
-        <div className="counter__output">{counter}</div>
+      <button className="reset" onClick={reset}>Start</button>
+      <button className="control-btn" onClick={decrease}>-</button>
+        <button className="control-btn" onClick={increase}>+</button>
+        <div className="counter-output">{counter}</div>
       
         
        
@@ -435,7 +435,7 @@ function Fruits({ children }) {
                    </div>
                    <div className="vegetatble-desciption-img">
                    <div className="vegetatble-desciption">
-             <div className='counter_name'> 
+             <div className='counter-name'> 
               <h1>Dates  <span>234Ksh /=</span></h1>
 
              </div>
@@ -443,12 +443,12 @@ function Fruits({ children }) {
               <div className="counter">
              
     
-      <div className="btn__container">
+      <div className="btn-container">
      
-      <button className="reset" onClick={reset}>Reset</button>
-      <button className="control__btn" onClick={decrease}>-</button>
-        <button className="control__btn" onClick={increase}>+</button>
-        <div className="counter__output">{counter}</div>
+      <button className="reset" onClick={reset}>Start</button>
+      <button className="control-btn" onClick={decrease}>-</button>
+        <button className="control-btn" onClick={increase}>+</button>
+        <div className="counter-output">{counter}</div>
       
         
        
@@ -456,7 +456,7 @@ function Fruits({ children }) {
     </div>
             </div>
             <div className="vegetatble-desciption">
-             <div className='counter_name'> 
+             <div className='counter-name'> 
               <h1>Plums  <span>234Ksh /=</span></h1>
 
              </div>
@@ -464,12 +464,12 @@ function Fruits({ children }) {
               <div className="counter">
              
     
-      <div className="btn__container">
+      <div className="btn-container">
      
-      <button className="reset" onClick={reset}>Reset</button>
-      <button className="control__btn" onClick={decrease}>-</button>
-        <button className="control__btn" onClick={increase}>+</button>
-        <div className="counter__output">{counter}</div>
+      <button className="reset" onClick={reset}>Start</button>
+      <button className="control-btn" onClick={decrease}>-</button>
+        <button className="control-btn" onClick={increase}>+</button>
+        <div className="counter-output">{counter}</div>
       
         
        
@@ -477,7 +477,7 @@ function Fruits({ children }) {
     </div>
             </div>
             <div className="vegetatble-desciption">
-             <div className='counter_name'> 
+             <div className='counter-name'> 
               <h1>Cherries  <span>234Ksh /=</span></h1>
 
              </div>
@@ -485,12 +485,12 @@ function Fruits({ children }) {
               <div className="counter">
              
     
-      <div className="btn__container">
+      <div className="btn-container">
      
-      <button className="reset" onClick={reset}>Reset</button>
-      <button className="control__btn" onClick={decrease}>-</button>
-        <button className="control__btn" onClick={increase}>+</button>
-        <div className="counter__output">{counter}</div>
+      <button className="reset" onClick={reset}>Start</button>
+      <button className="control-btn" onClick={decrease}>-</button>
+        <button className="control-btn" onClick={increase}>+</button>
+        <div className="counter-output">{counter}</div>
       
         
        
@@ -498,7 +498,7 @@ function Fruits({ children }) {
     </div>
             </div>
             <div className="vegetatble-desciption">
-             <div className='counter_name'> 
+             <div className='counter-name'> 
               <h1>Grapes  <span>234Ksh /=</span></h1>
 
              </div>
@@ -506,12 +506,12 @@ function Fruits({ children }) {
               <div className="counter">
              
     
-      <div className="btn__container">
+      <div className="btn-container">
      
-      <button className="reset" onClick={reset}>Reset</button>
-      <button className="control__btn" onClick={decrease}>-</button>
-        <button className="control__btn" onClick={increase}>+</button>
-        <div className="counter__output">{counter}</div>
+      <button className="reset" onClick={reset}>Start</button>
+      <button className="control-btn" onClick={decrease}>-</button>
+        <button className="control-btn" onClick={increase}>+</button>
+        <div className="counter-output">{counter}</div>
       
         
        

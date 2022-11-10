@@ -3,6 +3,7 @@ import React from "react";
 import makeoder from "../image/Makeorder.png";
 import makepayments from "../image/Payorder.png";
 import fastdelivery from "../image/fastdev-original.png";
+import './cards.css';
 
 
 
