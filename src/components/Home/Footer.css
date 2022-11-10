@@ -1,0 +1,16 @@
+/* .................
+Footer
+..................... */
+
+.footer{
+    /* background-color: #2FC85A; */
+    margin-bottom: 0%;
+    width: 100%;
+    height: vh;
+}
+.copy{
+    /* background-color: #000; */
+    padding-top: 2%;   
+    margin-left: 40%;
+    color: #2FC85A;
+}

@@ -1,0 +1,67 @@
+
+.payment-details{
+    background-image: url(../image/market.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 127vh;
+    display: flex;
+}
+.payment-box{
+    background-color: #fff;
+    width: 49%;
+    height: 88vh;
+    margin-left: 23%;
+    margin-top: 9%;
+    border-radius: 23px;
+}
+.payment-header{
+    font-size: 35px;
+    margin-left: 5%;
+    margin-top:10%;
+    font-weight: bold;
+}
+.payment-check{
+    display: flex;
+    background-color: #38de058e;
+    width: 123%;
+    height: 12vh;
+    align-items: center;
+    margin-bottom: 13%;
+
+    
+}
+.payment-check label{
+    width: 1123%;
+    font-size: 21px;
+    margin-left: 7%;
+    
+}
+.payment-input{
+    width: 61%;
+    margin-left: 5%;
+    margin-left: 15%;
+
+}
+
+.payment-input input{
+    height: 7vh;
+    margin: 9%;
+    padding-left: 6%;
+
+
+}
+.payment-btn{
+    margin-left: 23%;
+    width: 56%;
+    display: flex;
+    justify-content: flex-end;
+}
+.payment-btn button{
+    width: 234%;
+    background-color: #fff;
+    border: 2px solid #2FC85A;
+    padding: 4px;
+    border-radius: 23px;
+}
