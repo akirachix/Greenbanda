@@ -3,7 +3,7 @@
     justify-content: center;
     display: flex;
     padding: 90px 0 90px 0;
-    background-image: url(./image/market.jpg);
+    background-image: url(../image/market.jpg);
     background-position: center;
     background-size: cover;
     height: 90vh;

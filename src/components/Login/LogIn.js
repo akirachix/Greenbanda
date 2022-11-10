@@ -3,13 +3,12 @@ import './LogIn.css';
 import {Link } from "react-router-dom";
 // import { useState,useEffect } from 'react';
 import {FaShoppingCart} from "react-icons/fa";
-import Footer from './Home/Footer';
+import Footer from '../Home/Footer';
 
 
 
 function LogIn({ children }) {
-    // const  [PhoneNumber, setphoneNumber]= useState('');
-    // const  [password, setPassword]= useState('');
+ 
 
 
 

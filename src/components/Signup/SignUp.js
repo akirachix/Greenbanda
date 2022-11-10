@@ -4,7 +4,7 @@ import React from 'react';
 import { useState,useEffect } from 'react';
 import {FaShoppingCart} from "react-icons/fa";
 import axios  from 'axios';
-import Footer from './Home/Footer';
+import Footer from '../Home/Footer';
 
 
 
