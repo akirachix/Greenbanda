@@ -43,9 +43,8 @@ function LogIn({ children }) {
               </div>
 
               <div>
-                  
-                  <Link className='nav-link' to="/login"><FaShoppingCart/>
-</Link>
+              <Link className='nav-link' to="/cart">Cart</Link>
+                 
               </div>
               </div>
                      

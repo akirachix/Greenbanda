@@ -31,9 +31,7 @@ const Navbar = ({ children }) => {
                 </div>
 
                 <div>
-                    
-                    <Link className='nav-link' to="/#">            <FaShoppingCart/>
-</Link>
+                <Link className='nav-link' to="/cart">Cart</Link>
                 </div>
 
              

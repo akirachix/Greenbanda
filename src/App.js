@@ -1,6 +1,6 @@
 
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-
+import Cart from './components/Cart/cart';
 import SignUp from "./components/Signup/SignUp";
 import LogIn from "./components/Login/LogIn";
 import Dashboard from "./components/dashboard/Dashboard";
@@ -19,6 +19,7 @@ import OrderReview from "./components/OrderReview/orderreview";
 
 
 
+
 const App=()=>{
 
     return (
@@ -34,6 +35,9 @@ const App=()=>{
             
           <Route path="/signup">
               <SignUp/>
+            </Route>
+            <Route path="/cart">
+              <Cart/>
             </Route>
             
             <Route path ="/login">

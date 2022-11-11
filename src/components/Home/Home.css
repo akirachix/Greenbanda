@@ -84,8 +84,7 @@ crads
     background-color: orange;
     width: 14%;
     height: 10vh;
-    /* position: absolute; */
-    margin-top: -6%;
+    margin-top: -6.7%;
     margin-left: 5%;
     margin-right: 6%;
 
@@ -130,10 +129,17 @@ counter
 margin-left: 13%;   
 }
  
-.counter h1 {
+.counter-name h1 {
     color: #000;
-    font-size: 10px;
+    font-size: 12px;
 }
+.cart-btn{
+    margin-left: 1.5%;
+    background-color: #2FC85A;
+    padding: 2px 46px;
+    border: none;
+}
+
  
 .counter-output {
     /* margin-top: -22%; */
