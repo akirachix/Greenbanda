@@ -1,0 +1,49 @@
+
+.delivery-details{
+    background-image: url(../image/market.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 127vh;
+    display: flex;
+}
+.delivery-box{
+    background-color: #fff;
+    width: 49%;
+    height: 88vh;
+    margin-left: 23%;
+    margin-top: 9%;
+    border-radius: 23px;
+}
+.delivery-header{
+    font-size: 35px;
+    margin-left: 23%;
+    margin-top:10%;
+    font-weight: bold;
+}
+.delivery-input{
+    width: 61%;
+    margin-left: 5%;
+
+}
+
+.delivery-input input{
+    height: 7vh;
+    margin: 9%;
+    padding-left: 6%;
+
+}
+.delivery-btn{
+    margin-left: 42%;
+    width: 56%;
+    display: flex;
+    justify-content: space-between;
+}
+.delivery-btn button{
+    width: 234%;
+    background-color: #fff;
+    border: 2px solid #2FC85A;
+    padding: 4px;
+    border-radius: 23px;
+}

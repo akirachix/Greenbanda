@@ -1,0 +1,75 @@
+
+.continued-payment-details{
+    background-image: url(../image/market.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 127vh;
+    display: flex;
+}
+.continued-payment-box{
+    background-color: #fff;
+    width: 49%;
+    height: 60vh;
+    margin-left: 23%;
+    margin-top: 9%;
+    border-radius: 23px;
+}
+.continued-payment-header{
+    font-size: 35px;
+    margin-left: 3%;
+    margin-top:10%;
+    font-weight: bold;
+}
+
+
+.continued-payment-input{
+    width: 61%;
+    margin-left: 10%;
+
+}
+
+.continued-payment-input input{
+    height: 7vh;
+    margin: 9%;
+    padding-left: 6%;
+    margin-left: -3%;
+
+
+}
+.continue-payment-cart{
+    width: 78%;
+    height: 22vh;
+    box-shadow: 1px 1px 3px 1px;
+    margin-left: 8%;
+    margin-bottom: 4%;
+   
+}
+
+.coninued-payment-form h1{
+    font-size: 22px;
+    margin-left: 4%;
+}
+.coninued-payment-table thead td{
+    width: 23%;
+  
+    padding-left: 23%;
+
+   
+    
+}
+.continued-payment-btn{
+    margin-left: 23%;
+    width: 56%;
+    display: flex;
+    margin-left: 29%;
+}
+.continued-payment-btn button{
+    width: 200px;
+    height: 35px;
+    background-color: #fff;
+    border: 2px solid #2FC85A;
+    padding: 4px;
+    border-radius: 23px;
+}

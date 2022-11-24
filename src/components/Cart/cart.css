@@ -1,0 +1,104 @@
+.cart-categories{
+    margin-top: -8%;
+    width: 96%;
+    height: 155vh;
+    margin-left: 2%;
+    /* margin-right: 2%; */
+    
+}
+.cart-all-vegetables{
+    /* padding-top: %; */
+    display: flex;
+    width: 97%;
+    padding-bottom: 18%;
+    
+}
+.cart-all-vegetables-link{
+    width: 34%;
+    height: 33vh;
+    margin-left: 4%;
+
+}
+.cart-all-vegetables-link img{
+    width: 100%;
+    margin-top: 23%;
+   
+}
+.cart-vegetable-category{
+    border-radius: 20px;
+    width: 25%;
+    height: 30vh;
+    margin-top: 2%;
+    margin: 1%;
+}
+
+
+.cart-vegetatble-desciption-img{
+    display: flex;
+}
+.cart-vegetatble-desciption{
+    background-color: #2FC85A;
+    width: 24%;
+    height: 10vh;
+    margin-top: -13%;
+    margin-left: 9.1%;
+
+}
+.cart-vegetatble-desciption h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    font-size: 13px;
+}
+
+.cart-vegetatble-desciption-img img{
+width: 100%;
+height: 30vh;
+}
+
+.cart-all-vegetables-body{
+    width: 66%;
+    height: 90vh;
+
+}
+.cart-box{
+    width: 54%;
+    height: 56vh;
+    margin-left: -35%;
+    padding-top: 5%;
+    box-shadow: 2px 3px 3px 2px;
+}
+.cart-box h1{
+    margin-left: 23px;
+}
+.box-flex{
+    display: flex;
+    padding-top: 12%;
+    
+}
+.cart-button{
+    width: 100%;
+    padding: 12px;
+    color: #fff;
+    background-color: #2FC85A;
+    border: none;
+    margin-top: 17%;
+
+}
+.cart-cart-btn{
+    margin-left: 11.5%;
+    background-color: #fff;
+    padding: 2px 46px;
+    border: none;
+}
+.coninued-payment-form h1{
+    font-size: 22px;
+    margin-left: 4%;
+}
+.coninued-payment-table thead td{
+    width: 23%;
+  
+    padding-left: 23%;
+
+}
+
